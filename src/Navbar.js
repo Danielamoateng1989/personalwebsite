@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from './images/logo.svg';
+import logo from '../src/images/Danielslogo.jpg';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 
@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmenu}>
       <div className='nav-center'>
         <div className='nav-header'>
-          {/* <img src={logo} className='nav-logo' alt='' /> */}
+          <img src={logo} className='nav-logo' alt='logo' />
           <button className='btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
