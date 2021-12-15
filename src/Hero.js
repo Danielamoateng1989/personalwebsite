@@ -21,8 +21,7 @@ const Hero = () => {
         </article>
         <article className='hero-DanielImage'>
           <img src={ProfileImage} className='Daniel-img' alt='portrait' />
-        </article>
-      
+        </article> 
       </div>
     </section>
   );

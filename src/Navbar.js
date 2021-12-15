@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../src/images/Danielslogo.jpg';
+import logo from '../src/images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 
