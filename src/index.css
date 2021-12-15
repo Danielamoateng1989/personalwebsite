@@ -132,7 +132,7 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background-color: B;
+  background-color: rgb(249, 251, 252);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -161,9 +161,7 @@ Stripe Styles
   max-width: 35em;
   line-height: 1.8;
 }
-.hero-images {
-  display: none;
-}
+
 
 
 
@@ -224,14 +222,12 @@ Stripe Styles
   .hero-info p {
     font-size: 1.25rem;
   }
-  .hero-images {
-    display: block;
-    justify-self: center;
-  }
+
   .Daniel-img {
     width: 26rem;
-    border: 4px solid rgb(255, 255, 255);
-    border-radius: 18px
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 18px;
+ 
   }
 }
 
@@ -245,13 +241,12 @@ Stripe Styles
     max-width: 100%;
     font-size: 5.5rem;
   }
-  .hero-images {
-    align-self: end;
-  }
+
   .Daniel-img {
     width: 26rem;
-      border: 4px solid white;
+      border: 5px solid white;
   border-radius: 18px
+  
   }
 }
 @media screen and (min-width: 1400px) {
@@ -259,9 +254,11 @@ Stripe Styles
     padding-bottom: 20vh;
   }
   .Daniel-img {
-    width: 26rem;
-      border: 4px solid white;
-  border-radius: 18px
+  width: 26rem;
+  border: 5px solid white;
+  border-radius: 18px;
+  
+
   
   }
 }
@@ -411,6 +408,6 @@ Stripe Styles
 
 /* navigation logo*/
 .nav-logo {
-  width: 80px;
+  width: 70px;
   
 }
