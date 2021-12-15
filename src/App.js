@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Submenu from './Submenu';
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+      <Hero />
+      <Submenu />
+    </>
   );
 }
 

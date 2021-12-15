@@ -106,12 +106,12 @@ Stripe Styles
   justify-content: space-between;
   align-items: center;
 }
-.btn {
+.login-btn {
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius);
   border-color: transparent;
-  color: white;
+  color: rgb(11, 7, 7);
   background: var(--clr-black);
   cursor: pointer;
   transition: var(--transition);
@@ -132,7 +132,8 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background: url(./images/hero.svg);
+  background-color: #EDEDED;
+  /* background: url(./images/hero.svg); */
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -196,7 +197,7 @@ Stripe Styles
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
-    color: white;
+    color: black;
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;

@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import sublinks from './Data';
+import sublinks from './data';
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
