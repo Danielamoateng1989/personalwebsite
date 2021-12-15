@@ -28,7 +28,8 @@ h4 {
 }
 h1 {
   font-size: 3rem;
-  color:#ffffff
+  color:#000000;
+  letter-spacing: 2px;
 }
 h2 {
   font-size: 2rem;
@@ -88,12 +89,13 @@ p {
 Stripe Styles
 ===============
 */
+/*Navigation bar*/
 .nav {
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: #ffffff;
   position: relative;
   z-index: 1;
   box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
@@ -110,12 +112,16 @@ Stripe Styles
 }
 .login-btn {
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  box-shadow:rgb(140, 140, 140);
   padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  border-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  background: transparent;
+  color:rgb(255, 255, 255);
+  background: #245BE6;
+  border-color: transparent;
+  border-radius: 6px;
   cursor: pointer;
   
 }
@@ -135,7 +141,7 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: #FEFEFE;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -183,7 +189,8 @@ Stripe Styles
   }
   .nav-links {
     display: block;
-    color: #fff;
+    color: rgb(125, 125, 125);
+  font-family: 'Lato', sans-serif;
     
     justify-self: center;
     display: grid;
@@ -203,7 +210,7 @@ Stripe Styles
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(138, 138, 138);
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
@@ -339,7 +346,7 @@ Stripe Styles
 
 /* This is the submenu background */
 .submenu {
-  background: #fcfcfc;
+  background: #ffffff;
   box-shadow: var(--dark-shadow);
   position: absolute;
   color: rgb(0, 0, 0);
@@ -401,12 +408,14 @@ Stripe Styles
 
 .btn {
   font-family: 'Lato', sans-serif;
+  width: 150px;
+  height: 50px;
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
-  border-radius: 20px;
+  border-radius: 25px;
   border-color: lightgray;
-  color: rgb(255, 255, 255);
-  background-color: #ffffff;
+  color: rgb(140, 140, 140);
+  background-color: transparent;
   cursor: pointer;
   
 }
@@ -414,5 +423,6 @@ Stripe Styles
 /* navigation logo*/
 .nav-logo {
   width: 70px;
+  cursor: pointer;
   
 }

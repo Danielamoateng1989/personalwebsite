@@ -3,7 +3,8 @@ import {FaUserTie,
        FaCalendar, 
        FaShoppingCart,
        FaAirbnb, FaLinkedin,
-      FaGithub} from 'react-icons/fa';
+      FaGithub,
+    FaCalculator} from 'react-icons/fa';
 
 
 import React from 'react';
@@ -21,7 +22,8 @@ const sublinks = [
     links: [
       { label: 'Founded', icon: <FaCalendar/>, url: '/founded' },
       { label: 'Shopping', icon: <FaShoppingCart />, url: '/shopping' },
-      { label: 'Travel', icon: <FaAirbnb />, url: '/about' },
+      { label: 'Travel', icon: <FaAirbnb />, url: '/travel' },
+      { label: 'RP Calculator', icon: <FaCalculator />, url: '/travel' },
     ],
   },
   {
