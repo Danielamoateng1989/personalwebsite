@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 *,
 ::after,
@@ -7,12 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
-  line-height: 1.5;
-  font-size: 0.875rem;
+  font-family: 'Lato', sans-serif;
 }
 ul {
   list-style-type: none;
@@ -107,6 +103,7 @@ Stripe Styles
   align-items: center;
 }
 .login-btn {
+  font-family: 'Lato', sans-serif;
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius);
@@ -194,6 +191,7 @@ Stripe Styles
   }
   .link-btn {
     height: 100%;
+    font-family: 'Lato', sans-serif;
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
