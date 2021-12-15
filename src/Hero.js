@@ -9,11 +9,13 @@ const Hero = () => {
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>
-            Hi, I'm Danny.<br />
-            Welcome to Dannyville
+            Hi! I'm Danny.<br />
+            Welcome to <br />
+            my world!  
+            Let's connect.
         
           </h1>
-          <p>
+          <p style={{"font-family": 'Lato' }}>
             I'm a passionate developer with a love for learning new technologies. Browse around and enjoy the site.
           </p>
           <button className='btn'>Come Inside</button>
