@@ -103,24 +103,27 @@ Stripe Styles
   box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
 
 }
+
+/*This is what centers the navigation items*/
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
+
+
+/*Navigation header*/
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/*This is the login button color*/
+/*This is the login/Sign up button color*/
 .login-btn {
   font-family: 'Lato', sans-serif;
   font-size: 0.9rem;
   width: 150px;
   height: 40px;
-  padding: 10px;
-  box-shadow:rgb(140, 140, 140);
   padding: 0.25rem 0.75rem;
   color:rgb(255, 255, 255);
   background: #245BE6;
@@ -129,9 +132,14 @@ Stripe Styles
   cursor: pointer;
   
 }
+
+/*Background of the color changes from royalblue to yellow with you hover over explore button*/
 .btn:hover {
-  background: var(--clr-grey-5);
+  background: #ECB365;
 }
+
+
+
 .nav-links {
   display: none;
 }
@@ -144,22 +152,25 @@ Stripe Styles
   content: '';
   position: absolute;
   width: 100%;
-  height: 65%;
+  height: 5%;
   top: 0;
   left: 0;
-  background-color: #FEFEFD ;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ffffff ;
   z-index: -1;
 }
+
+/*This is the height of the hero viewport*/
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 99vh;
   margin-top: -6rem;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
 }
+
+
+/*We are centering the hero with a width of 90vw*/
 .hero-center {
   width: 90vw;
   max-width: var(--max-width);
