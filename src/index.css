@@ -40,9 +40,11 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
+
+/*This is the hero paragraph*/
 p {
   margin-bottom: 1.25rem;
-  color: white;
+  color: rgb(150, 150, 150);
   
 
 }
@@ -72,11 +74,11 @@ p {
 /*  global classes */
 
 /* section */
-.section {
-  width: 90vw;
+/* .section {
+  width: 9vw;
   margin: 0 auto;
   max-width: var(--max-width);
-}
+} */
 
 @media screen and (min-width: 992px) {
   .section {
@@ -89,9 +91,9 @@ p {
 Stripe Styles
 ===============
 */
-/*Navigation bar*/
+/*This is the Navigation bar*/
 .nav {
-  height: 5rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,7 +147,7 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #FEFEFD ;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -350,10 +352,10 @@ Stripe Styles
 
 /* This is the submenu background */
 .submenu {
-  background: #ffffff;
+  background: linear-gradient(120deg, #0575E6 0%, #021B79 100%);;;
   box-shadow: var(--dark-shadow);
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   top: 4rem;
   left: 50%;
   transform: translateX(-50%);
@@ -412,14 +414,16 @@ Stripe Styles
 
 .btn {
   font-family: 'Lato', sans-serif;
-  width: 150px;
-  height: 50px;
   font-size: 1rem;
+  width: 160px;
+  height: 45px;
+  padding: 10px;
+  box-shadow:rgb(140, 140, 140);
   padding: 0.25rem 0.75rem;
-  border-radius: 25px;
-  border-color: lightgray;
-  color: rgb(140, 140, 140);
-  background-color: transparent;
+  color:rgb(255, 255, 255);
+  background: #245BE6;
+  border-color: transparent;
+  border-radius: 6px;
   cursor: pointer;
   
 }

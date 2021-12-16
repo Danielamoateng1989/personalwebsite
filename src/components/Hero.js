@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileImage from '../src/images/backgroundImage_ccexpress.png';
-import { useGlobalContext } from './context';
+import ProfileImage from '../images/backgroundImage_ccexpress.png';
+import { useGlobalContext } from '../context';
 
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -15,8 +15,7 @@ const Hero = () => {
         
           </h1>
           <p style={{"font-family": 'Lato' }}>
-            I'm a passionate developer with a love for learning new technologies. Browse around and enjoy the site.
-          </p>
+          Organized, dedicated and ambitious professional with excellent attention to detail, and a love for learning new technologies.           </p>
           <button className='btn'>Explore</button>
         </article>
         <article className='hero-DanielImage'>

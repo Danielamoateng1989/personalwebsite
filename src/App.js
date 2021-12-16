@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Submenu from './Submenu';
+import Navbar from '../src/components/Navbar';
+import Hero from '../src/components/Hero';
+import Submenu from '../src/components/Submenu';
 function App() {
   return (
     <>
