@@ -14,7 +14,7 @@ const Hero = () => {
             my world! Let's connect.
         
           </h1>
-          <p style={{"font-family": 'Lato' }}>
+          <p>
           Organized, dedicated and ambitious professional with excellent attention to detail, and a love for learning new technologies.           </p>
           <button className='btn'>Explore</button>
         </article>
