@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom"
 import Navbar from '../src/components/Navbar';
-import Hero from '../src/components/Hero';
+import Homepage from './components/Homepage';
 import Submenu from '../src/components/Submenu';
 import Aboutme from './components/Aboutme';
 import Myinterest from './components/Myinterest';
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Hero />
+      <Homepage />
       <Aboutme />
       <Myinterest />
       <Footer />

@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileImage from '../images/backgroundImage_ccexpress.png';
 import { useGlobalContext } from '../context';
 
-const Hero = () => {
+const Homepage = () => {
   const { closeSubmenu } = useGlobalContext();
   return (
     <section className='hero' onMouseOver={closeSubmenu}>
@@ -26,4 +26,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Homepage;

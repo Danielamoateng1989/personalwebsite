@@ -16,7 +16,7 @@ const Submenu = () => {
     const { center, bottom } = location
     submenu.style.left = `${center}px`
     submenu.style.top = `${bottom}px`
-    console.log(links)
+
     
     if (links.length === 3) {
       setColumns('col-3')
@@ -43,6 +43,9 @@ const Submenu = () => {
             )
           })}
         </div>
+
+      
+
       </section>
     </aside>
   )

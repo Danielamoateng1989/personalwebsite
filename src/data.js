@@ -3,8 +3,8 @@ import {FaUserTie,
        FaCalendar, 
        FaShoppingCart,
        FaAirbnb, FaLinkedin,
-      FaGithub,
-    FaCalculator} from 'react-icons/fa';
+       FaGithub,
+       FaCalculator} from 'react-icons/fa';
 
 
 import React from 'react';
