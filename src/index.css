@@ -9,6 +9,9 @@
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     max-width: 100%;
+    overflow-x: hidden;
+    
   
 }
 ul {
@@ -75,11 +78,11 @@ p {
 /*  global classes */
 
 /* section */
-/* .section {
-  width: 9vw;
+.section {
+  width: 10vw;
   margin: 0 auto;
   max-width: var(--max-width);
-} */
+} 
 
 @media screen and (min-width: 992px) {
   .section {
@@ -89,12 +92,14 @@ p {
 
 /*
 =============== 
-Stripe Styles
+Styles
 ===============
 */
 /*This is the Navigation bar*/
 .nav {
   height: 4rem;
+  margin: 0 auto;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,7 +477,47 @@ Stripe Styles
 .about-paragraph  {
     text-indent: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: -50px;
    
 }
 
+.interest-me::before {
+   content: '';
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff ;
+  z-index: -1;
+
+}
+
+.interest-me {
+  position: relative;
+  min-height: 40vh;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+}
+
+.interest-info{
+  width: 100vw;
+  align-items: center;
+  font-size: x-large;
+  overflow: hidden;
+  
+}
+
+.footer {
+  background-color: #E6E6E6;
+  height: 50px;
+  text-align: center;
+  
+}
+
+.footer p {
+  margin-top: 10rem;
+}

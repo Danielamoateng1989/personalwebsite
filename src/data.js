@@ -1,5 +1,5 @@
 import {FaUserTie,
-       FaFutbol, FaFileCode, 
+        FaFileCode, 
        FaCalendar, 
        FaShoppingCart,
        FaAirbnb, FaLinkedin,
@@ -14,7 +14,6 @@ const sublinks = [
     links: [
       { label: 'About Me', icon: <FaUserTie />, url: '/aboutme' },
       { label: 'My Interest', icon: <FaFileCode />, url: '/myinterest' },
-      { label: 'My Hobbies', icon: <FaFutbol />, url: '/myhobbies' },
     ],
   },
   {
