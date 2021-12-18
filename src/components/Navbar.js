@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={logo} className='nav-logo' alt='logo' />
-          <button className='btn toggle-btn' onClick={openSidebar}>
+          <button className='header-btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
         </div>
