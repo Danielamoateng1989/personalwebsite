@@ -6,9 +6,8 @@
   --color-secondary: #ff3400;
   --color-accent: #00d9ff;
   --color-headings: #1b0760;
-  --color-body: #918ca4;
+  --color-body: #53505e;
 }
-
 
 *,
 ::after,
@@ -18,7 +17,7 @@
   box-sizing: border-box;
 }
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Merriweather', serif;
      max-width: 100%;
     overflow-x: hidden;
     
@@ -37,7 +36,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 h1 {
   font-size: 3rem;
@@ -61,29 +60,13 @@ p {
   
 
 }
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-}
+
+
+
+
+
+
+
 /*  global classes */
 
 /* section */
@@ -136,7 +119,7 @@ Styles
 
 /*This is the login/Sign up button color*/
 .login-btn {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 0.9rem;
   width: 150px;
   height: 40px;
@@ -202,7 +185,29 @@ Styles
 }
 
 
-
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
 
 /* nav media query */
 @media screen and (min-width: 800px) {
@@ -226,7 +231,7 @@ Styles
   .nav-links {
     display: block;
     color: rgb(125, 125, 125);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Merriweather', serif;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -241,10 +246,10 @@ Styles
   }
   .link-btn {
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Merriweather', serif;
     background: transparent;
     border-color: transparent;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(138, 138, 138);
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -282,9 +287,7 @@ Styles
  
   }
 
-  .login-btn {
-    display: none;
-  }
+  
  
 
 .header-btn {
@@ -309,11 +312,11 @@ Styles
     height: 100%;
   }
   .hero-center {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 2fr;
   }
 
   .hero-info h1 {
-    font-size: 3.4rem;
+    font-size: 4.4rem;
   }
   .hero-info p {
     font-size: 1.25rem;
@@ -325,9 +328,6 @@ Styles
  
   }
 
-  .login-btn {
-    display: inline-block;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -342,7 +342,7 @@ Styles
   }
 
   .Daniel-img {
-    width: 26rem;
+  width: 26rem;
   border-radius: 18px
   
   }
@@ -367,6 +367,10 @@ Styles
     font-size: 1.25rem;
     margin-top: 30px;
   }
+
+  /* .login-btn {
+    display: inline-block;
+  } */
 }
 
 /* sidebar */
@@ -380,10 +384,11 @@ Styles
   place-items: center;
   visibility: hidden;
   z-index: -1;
+  font-size: 1rem;
   transition: 0.3s;
   transform: scale(0);
-  background: linear-gradient(120deg, #0575E6 0%, #021B79 100%);
-  color: #fff;
+  background: white;
+  color: var(--color-body);
   
 }
 .sidebar-wrapper.show {
@@ -435,28 +440,45 @@ Styles
 
 
 
+@media only screen and (max-width: 200px) {
+   .hero::before {
+    background-size: contain;
+    height: 10%;
+  }
+  
+
+  .hero-info h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+
+  }
+  .hero-info p {
+    font-size: 1.25rem;
+  
+  }
+
+  
+
+  .Daniel-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+  }
+ 
+.nav {
+  width: 100vw;
+}
+
+.login-btn {
+  margin-left: 10px;
+  background-color: white;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @media screen and (min-width: 800px) {
   .sidebar-wrapper {
@@ -529,7 +551,7 @@ Styles
 
 /*Learn more button on homepage*/
 .leardMore-button {
-  font-family: 'Gill Sans';
+  font-family: 'Merriweather', serif;
   font-size: 1rem;
   width: 160px;
   height: 45px;
@@ -537,16 +559,19 @@ Styles
   box-shadow:rgb(140, 140, 140);
   padding: 0.25rem 0.75rem;
   color:rgb(255, 255, 255);
-  background: #245BE6;
+  background: var(--color-secondary);
   border-color: transparent;
   border-radius: 6px;
   cursor: pointer;
+  text-transform: uppercase;
   
 }
 
+
+
 /*Hamburger icon button styling*/ 
 .header-btn {
-  font-family: 'Gill Sans';
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
   width: 160px;
   height: 14px;
