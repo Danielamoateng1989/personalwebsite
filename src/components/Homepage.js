@@ -19,7 +19,7 @@ const Homepage = () => {
           <button className='btn'>Explore</button>
         </article>
         <article className='hero-DanielImage'>
-          <img src={ProfileImage} className='Daniel-img' alt='portrait' />
+          <img src={ProfileImage} className='Daniel-img' alt='portrait'/>
         </article> 
       </div>
     </section>

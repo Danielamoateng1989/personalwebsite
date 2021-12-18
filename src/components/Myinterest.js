@@ -7,8 +7,8 @@ const Myinterest = () => {
       <div className='hero-center'>
         <article className='interest-info about-paragraph'>
             <h3>My Interest</h3>
-            <div >
-            <p className=''>
+            <div  className='interest-paragraph'>
+            <p>
             Organized, dedicated and ambitious professional with excellent attention to detail, and a love for learning new technologies.  
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             </p>

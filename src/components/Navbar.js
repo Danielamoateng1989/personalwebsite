@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmenu}>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='nav-logo' alt='logo' />
+          <img src={logo} className='nav-logo' alt='danny' />
           <button className='header-btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
