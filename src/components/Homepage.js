@@ -16,7 +16,7 @@ const Homepage = () => {
           </h1>
           <p>
           Organized, dedicated and ambitious professional with excellent attention to detail, and a love for learning new technologies.           </p>
-          <button className='btn'>Explore</button>
+          <button className='leardMore-button'>Learn more</button>
         </article>
         <article className='hero-DanielImage'>
           <img src={ProfileImage} className='Daniel-img' alt='portrait'/>

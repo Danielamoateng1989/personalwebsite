@@ -4,7 +4,7 @@ const Myinterest = () => {
     return (
        
 <section className='interest-me'>
-      <div className='hero-center'>
+      <div className=''>
         <article className='interest-info about-paragraph'>
             <h3>My Interest</h3>
             <div  className='interest-paragraph'>

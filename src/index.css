@@ -24,16 +24,15 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1 {
   font-size: 3rem;
   color:#000000;
-  letter-spacing: 2px;
+ 
 }
 h2 {
   font-size: 2rem;
@@ -79,7 +78,7 @@ p {
 
 /* section */
 .section {
-  width: 10vw;
+  width: 100vw;
   margin: 0 auto;
   max-width: var(--max-width);
 } 
@@ -113,7 +112,7 @@ Styles
 /*This is what centers the navigation items*/
 .nav-center {
   width: 90vw;
-  max-width: var(--max-width);
+ 
 }
 
 
@@ -138,7 +137,9 @@ Styles
   cursor: pointer;
   
 }
-
+.login-btn:hover {
+  background: #2b5cd8
+}
 /*Background of the color changes from royalblue to yellow with you hover over explore button*/
 .btn:hover {
   background: #ECB365;
@@ -147,9 +148,7 @@ Styles
 .nav-links {
   display: none;
 }
-.signin-btn {
-  display: none;
-}
+
 
 /*Hero background Image*/
 .hero::before {
@@ -167,7 +166,6 @@ Styles
 .hero {
   position: relative;
   min-height: 99vh;
-  margin-top: -6rem;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -261,14 +259,18 @@ Styles
   }
 
   .Daniel-img {
-    width: 18rem;
-    border-radius: 18px;
+    width: 8rem;
+    
  
   }
 
   .login-btn {
     display: none;
 
+  }
+  .hero-DanielImage {
+
+      width: 8rem;
   }
 }
 
@@ -344,9 +346,10 @@ Styles
   place-items: center;
   visibility: hidden;
   z-index: -1;
-  transition: var(--transition);
+  transition: 0.3s ;
   transform: scale(0);
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
+  color: black;
 }
 .sidebar-wrapper.show {
   visibility: visible;
@@ -407,7 +410,7 @@ Styles
 
 /* This is the submenu background */
 .submenu {
-  background: linear-gradient(120deg, #0575E6 0%, #021B79 100%);;;
+  background: linear-gradient(120deg, #0575E6 0%, #021B79 100%);
   box-shadow: var(--dark-shadow);
   position: absolute;
   color: rgb(255, 255, 255);
@@ -416,7 +419,7 @@ Styles
   transform: translateX(-50%);
   z-index: 3;
   display: none;
-  padding: 2rem;
+  padding: 4rem 2rem;
   border-radius: 10px;
   transition: var(--transition);
 }
@@ -425,8 +428,8 @@ Styles
   display: block;
   width: 0;
   height: 0;
-  border-left: 5px solid red;
-  border-right: 5px solid red;
+  border-left: 5px solid rgb(255, 255, 255);
+  border-right: 5px solid rgb(245, 237, 237);
   border-bottom: 5px solid var(--clr-white);
   position: absolute;
   top: -5px;
@@ -457,15 +460,16 @@ Styles
 .submenu-center a {
   width: 10rem;
   display: block;
-  color: var(--clr-grey-1);
+  color: white;
   text-transform: capitalize;
   display: flex;
   align-items: center;
+  
 }
 
-
-.btn {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*Learn more button on homepage*/
+.leardMore-button {
+  font-family: 'Gill Sans';
   font-size: 1rem;
   width: 160px;
   height: 45px;
@@ -480,9 +484,9 @@ Styles
   
 }
 
-/*Style for navigation header */
+/*Hamburger icon button styling*/ 
 .header-btn {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans';
   font-size: 2rem;
   width: 160px;
   height: 14px;
@@ -496,77 +500,15 @@ Styles
 
 }
 
-.header-btn:active {
-  transform: translateY(1px);
-}
-
-
 
 /* navigation logo*/
-.nav-logo {
+.navigation-logo {
   width: 70px;
   cursor: pointer;
   
 }
 
-.about-me::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 5%;
-  top: 0;
-  left: 0;
-  background-color: #ffffff ;
-  z-index: -1;
-
-}
-
-.about-me {
-  position: relative;
-  min-height: 50vh;
-  margin-top: -6rem;
-  background-color: #E6E6E6;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-}
-.about-paragraph  {
-    text-indent: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-}
-
-.interest-me::before {
-   content: '';
-  position: absolute;
-  width: 100%;
-  height: 5%;
-  top: 0;
-  left: 0;
-  background-color: #ffffff ;
-  z-index: -1;
-
-}
-
-.interest-me {
-  position: relative;
-  min-height: 40vh;
-  margin-top: 2rem;
-  background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-
-}
-
-.interest-info{
-  width: 100vw;
-  align-items: center;
-  font-size: x-large;
-  overflow: hidden;
-  
-}
-
+/*This is the footer background, height and text align*/
 .footer {
   background-color: #E6E6E6;
   height: 50px;
