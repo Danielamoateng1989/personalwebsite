@@ -492,11 +492,16 @@ Styles
   color: #245BE6;
   background-color: #ffffff;
   border-color: transparent;
-  
-  
   cursor: pointer;
 
 }
+
+.header-btn:active {
+  transform: translateY(1px);
+}
+
+
+
 /* navigation logo*/
 .nav-logo {
   width: 70px;
