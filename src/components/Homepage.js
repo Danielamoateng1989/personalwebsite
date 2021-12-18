@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileImage from '../images/backgroundImage_ccexpress.png';
-import { useGlobalContext } from '../context';
+import { useGlobalContext } from './context';
 
 const Homepage = () => {
   const { closeSubmenu } = useGlobalContext();

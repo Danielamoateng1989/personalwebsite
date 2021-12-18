@@ -5,16 +5,20 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import Navbar from '../src/components/Navbar';
-import Homepage from './components/Homepage';
-import Submenu from '../src/components/Submenu';
-import Aboutme from './components/Aboutme';
-import Myinterest from './components/Myinterest';
-import Footer from './components/Footer';
+import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Submenu from './Submenu';
+import Aboutme from './Aboutme';
+import Myinterest from './Myinterest';
+import Footer from './Footer';
+import Sidebar from './Sidebar';
+
+
 function App() {
   return (
     <Router>
       <Navbar />
+      <Sidebar />
       <Homepage />
       <Aboutme />
       <Myinterest />

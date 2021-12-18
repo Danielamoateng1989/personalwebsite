@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { useGlobalContext } from '../context';
+import { useGlobalContext } from './context';
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Portfolio
+              Projects
             </button>
           </li>
           <li>

@@ -17,7 +17,7 @@ const sublinks = [
     ],
   },
   {
-    page: 'Portfolio',
+    page: 'Projects',
     links: [
       { label: 'Founded', icon: <FaCalendar/>, url: '/founded' },
       { label: 'Shopping', icon: <FaShoppingCart />, url: '/shopping' },
