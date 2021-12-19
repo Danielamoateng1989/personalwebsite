@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom"
@@ -10,6 +10,7 @@ import Homepage from './Homepage';
 import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
+import Home from '../pages/home'
 
 
 function App() {
@@ -17,7 +18,10 @@ function App() {
     <Router>
       <Navbar />
       <Sidebar />
-      <Homepage />
+      <Routes>
+          <Route path="/" element={<Homepage />} exact />
+         <Route path='/aboutme' element={<Home />} />
+      </Routes>
       <Footer />
       <Submenu />
     </Router>

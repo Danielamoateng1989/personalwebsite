@@ -18,7 +18,7 @@
 }
 body {
     font-family: 'Merriweather', serif;
-     max-width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     
   
@@ -37,6 +37,7 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 h1 {
   font-size: 3rem;
@@ -62,11 +63,6 @@ p {
 }
 
 
-
-
-
-
-
 /*  global classes */
 
 /* section */
@@ -90,7 +86,7 @@ Styles
 */
 /*This is the Navigation bar*/
 .nav {
-  height: 4rem;
+  height: 5rem;
   margin: 0 auto;
   width: 100vw;
   display: flex;
@@ -119,6 +115,7 @@ Styles
 
 /*This is the login/Sign up button color*/
 .login-btn {
+  position: relative;
   font-family: 'Merriweather', serif;
   font-size: 0.9rem;
   width: 150px;
@@ -169,8 +166,7 @@ Styles
 /*We are centering the hero with a width of 90vw*/
 .hero-center {
   width: 90vw;
-  max-width: var(--max-width);
-  display: grid;
+    display: grid;
   align-items: center;
 }
 
@@ -269,7 +265,7 @@ Styles
 
   .hero-info h1 {
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 40px;
 
   }
   .hero-info p {
@@ -316,7 +312,8 @@ Styles
   }
 
   .hero-info h1 {
-    font-size: 4.4rem;
+    font-size: 4rem;
+    margin-top: 80px;
   }
   .hero-info p {
     font-size: 1.25rem;
@@ -334,11 +331,12 @@ Styles
   .hero-center {
     grid-template-columns: 2fr 1fr;
     align-items: end;
-    padding-bottom: 12vh;
+    padding-bottom: 2vh;
   }
   .hero-info h1 {
     max-width: 100%;
     font-size: 5rem;
+   
   }
 
   .Daniel-img {
@@ -351,26 +349,21 @@ Styles
 
 @media screen and (min-width: 1400px) {
   .hero-center {
-    padding-bottom: 30vh;
+    padding-bottom: 20vh;
   }
   .Daniel-img {
   width: 26rem;
   border-radius: 18px;
 
   }
-
-   .hero-info h1 {
-  margin-bottom: 20px;
-  }
-
    .hero-info p {
     font-size: 1.25rem;
-    margin-top: 30px;
+    margin-top: 10px;
+    
   }
-
-  /* .login-btn {
+   .login-btn {
     display: inline-block;
-  } */
+  } 
 }
 
 /* sidebar */
@@ -445,7 +438,9 @@ Styles
     background-size: contain;
     height: 10%;
   }
-  
+  .header-btn {
+  margin-top: 20px;
+}
 
   .hero-info h1 {
     font-size: 2rem;
@@ -456,8 +451,6 @@ Styles
     font-size: 1.25rem;
   
   }
-
-  
 
   .Daniel-img {
   width: 100%;
@@ -473,8 +466,9 @@ Styles
 }
 
 .login-btn {
-  margin-left: 10px;
-  background-color: white;
+  display: none;
+  margin-top: 40px;
+  color: white;
 }
 
 
@@ -498,6 +492,7 @@ Styles
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
+  font-size: 0.8rem;
   display: none;
   padding: 4rem 2rem;
   border-radius: 10px;
