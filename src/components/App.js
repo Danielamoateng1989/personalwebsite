@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom"
 import Navbar from './Navbar';
 import Homepage from './Homepage';
@@ -20,7 +19,7 @@ function App() {
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-         <Route path='/aboutme' element={<Home />} />
+          <Route path='/aboutme' element={<Home />} />
       </Routes>
       <Footer />
       <Submenu />

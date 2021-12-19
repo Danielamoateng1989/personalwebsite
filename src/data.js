@@ -29,7 +29,7 @@ const sublinks = [
   {
     page: 'Connect',
     links: [
-      { label: 'linkedIn', icon: <FaLinkedin />,url: 'https://www.linkedin.com/in/daniel-amoateng-959a27181/' },
+      { label: 'linkedIn', icon: <FaLinkedin />,url: 'https://www.linkedin.com/in/daniel-amoateng-959a27181' },
       { label: 'github', icon: <FaGithub/>,url: 'https://github.com/Danielamoateng1989' },
     ],
   },
