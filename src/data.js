@@ -20,10 +20,10 @@ const sublinks = [
   {
     page: 'Projects',
     links: [
-      { label: 'Founded', icon: <FaCalendar/>,url: '/founded' },
+      { label: 'Founded', icon: <FaCalendar/>,url: 'https://apps.apple.com/us/app/regulur-schedule-earn-book/id1391463331' },
       { label: 'Shopping', icon: <FaShoppingCart />,url: '/shopping' },
       { label: 'Travel', icon: <FaAirbnb />,url: '/travel' },
-      { label: 'RP Calculator', icon: <FaCalculator />,url: '/calculator' },
+      { label: 'RP Calculator', icon: <FaCalculator />,url: 'https://rpcalculator.netlify.app/' },
     ],
   },
   {
