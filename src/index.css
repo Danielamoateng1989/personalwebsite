@@ -589,13 +589,18 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
-  background-color: #E6E6E6;
-  height: 50px;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #F5F5F7;
+  color: #96969A;
   text-align: center;
-  margin-top: 50px;
-  
-}
 
-.footer p {
-  margin-top: 10rem;
-}
+  }
+
+  .footer p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 28px;
+  }
