@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 body {
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
     
@@ -35,7 +35,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 h1 {
@@ -115,7 +115,7 @@ Styles
 /*This is the login/Sign up button color*/
 .login-btn {
   position: relative;
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   width: 150px;
   height: 40px;
@@ -226,7 +226,7 @@ Styles
   .nav-links {
     display: block;
     color: rgb(125, 125, 125);
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -241,7 +241,7 @@ Styles
   }
   .link-btn {
     height: 100%;
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     background: transparent;
     border-color: transparent;
     font-size: 1rem;
@@ -545,7 +545,7 @@ Styles
 
 /*Learn more button on homepage*/
 .leardMore-button {
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   width: 160px;
   height: 45px;
@@ -565,7 +565,7 @@ Styles
 
 /*Hamburger icon button styling*/ 
 .header-btn {
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   width: 160px;
   height: 14px;
