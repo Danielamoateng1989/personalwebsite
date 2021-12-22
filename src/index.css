@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
 :root {
   --color-primary: #245BE6;
   --color-secondary: #ff3400;
   --color-accent: #00d9ff;
   --color-headings: #1b0760;
-  --color-body: #F6F9FC;
+  --color-body: #53505e;
 }
 
 *,
@@ -17,7 +16,7 @@
   box-sizing: border-box;
 }
 body {
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
     
@@ -36,7 +35,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 h1 {
@@ -116,7 +115,7 @@ Styles
 /*This is the login/Sign up button color*/
 .login-btn {
   position: relative;
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   width: 150px;
   height: 40px;
@@ -227,7 +226,7 @@ Styles
   .nav-links {
     display: block;
     color: rgb(125, 125, 125);
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -242,7 +241,7 @@ Styles
   }
   .link-btn {
     height: 100%;
-    font-family: 'Merriweather', serif;
+   font-family: 'Poppins', sans-serif;
     background: transparent;
     border-color: transparent;
     font-size: 1rem;
@@ -492,7 +491,7 @@ Styles
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: none;
   padding: 4rem 2rem;
   border-radius: 10px;
@@ -546,7 +545,7 @@ Styles
 
 /*Learn more button on homepage*/
 .leardMore-button {
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   width: 160px;
   height: 45px;
@@ -566,7 +565,7 @@ Styles
 
 /*Hamburger icon button styling*/ 
 .header-btn {
-  font-family: 'Merriweather', serif;
+ font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   width: 160px;
   height: 14px;
@@ -590,13 +589,18 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
-  background-color: #E6E6E6;
-  height: 50px;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #F5F5F7;
+  color: #96969A;
   text-align: center;
-  margin-top: 50px;
-  
-}
 
-.footer p {
-  margin-top: 10rem;
-}
+  }
+
+  .footer p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 28px;
+  }
