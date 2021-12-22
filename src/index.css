@@ -491,7 +491,7 @@ Styles
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: none;
   padding: 4rem 2rem;
   border-radius: 10px;
