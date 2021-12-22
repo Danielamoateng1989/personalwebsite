@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { useGlobalContext } from './context';
 
 const Navbar = () => {
