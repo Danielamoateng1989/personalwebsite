@@ -65,18 +65,18 @@ p {
 /*  global classes */
 
 /* section */
-.section {
+/* .section {
   width: 100vw;
   height: 80vh;
   margin: 0 auto;
   max-width: var(--max-width);
-} 
+}  */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
-}
+} */
 
 /*
 =============== 
@@ -165,7 +165,7 @@ Styles
 /*We are centering the hero with a width of 90vw*/
 .hero-center {
   width: 90vw;
-    display: grid;
+  display: grid;
   align-items: center;
 }
 
@@ -179,8 +179,12 @@ Styles
   line-height: 1.8;
 }
 
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
 
-@media screen and (min-width: 800px) {
+
+@media only screen and (min-width: 768px) {
   h1 {
     font-size: 2rem;
   }
@@ -205,7 +209,7 @@ Styles
 }
 
 /* nav media query */
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -255,7 +259,7 @@ Styles
 }
 
 
-@media screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .hero::before {
     background-size: contain;
     height: 10%;
@@ -432,7 +436,7 @@ Styles
 
 
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 600px) {
    .hero::before {
     background-size: contain;
     height: 10%;
@@ -473,7 +477,7 @@ Styles
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
   .sidebar-wrapper {
     display: none;
 
