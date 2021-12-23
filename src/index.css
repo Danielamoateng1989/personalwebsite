@@ -19,7 +19,7 @@ body {
    font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
-     background-color: #eaeff1;
+     /* background-color: #eaeff1; */
     
   
 }
@@ -66,18 +66,18 @@ p {
 /*  global classes */
 
 /* section */
-/* .section {
+ .section {
   width: 100vw;
   height: 80vh;
   margin: 0 auto;
   max-width: var(--max-width);
-}  */
+}  
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
-} */
+} 
 
 /*
 =============== 
@@ -419,13 +419,13 @@ Styles
 
   }
    .hero-info p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-top: 10px;
     
   }
 
   .hero-info h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-top: 10px;
     font-weight: bold;
     
@@ -670,26 +670,90 @@ Styles
     padding: 28px;
   }
 
-.about_container {
-    max-width: 80%;
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px;
+  height: 100%;
+  
+}
+
+.my_card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
+}
+
+.tag {
+ 
+  text-align: center;
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}    
+
+.my_name {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+
+}
+img {
+    
+    border-radius: 10px ;
+    height: auto;
     margin: 0 auto;
-    margin-top: 20vh;
-    height: 80vh;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    
+  }
+
+  .my_name {
+    
+    text-align: center;
+    margin: 0 auto;
+  }
+
+ /* .about_container {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+  padding: 10px;
+  height: 80vh;
+  
    
     
   }
 
   
 
-  img {
-    width: 30%;
-    border-radius: 12px ;
-    height: 50%;
-  }
-
+  
   
 
-  .my_card {
+  /* .my_card {
     background-color: white;
     padding: 8px;
     border-radius: 12px;
@@ -709,7 +773,7 @@ Styles
 
 .my_name {
   font-size: 20px;
-    font-weight: 600;
+  font-weight: 600;
 
 }
 
@@ -717,22 +781,17 @@ p {
   font-size: 14px;
   color: #7f8c9b;
   line-height: 150%;
-}
+} */
 
 
-button {
+/* button {
   border: none;
   padding: 12px 24px;
   border-radius: 50px;
-
   font-weight: 600;
   color: #0077ff;
   background-color: #e0efff;
-
-  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
   margin: 0 auto;
   display: block;
-
-  /* Button is a clickable element, therefore it should have a pointer cursor */
   cursor: pointer;
-}
+}    */ 
