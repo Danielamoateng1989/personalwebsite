@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&family=Raleway:wght@400;500&display=swap');:root {
   --color-primary: #245BE6;
   --color-secondary: #ff3400;
   --color-accent: #00d9ff;
@@ -19,6 +18,7 @@ body {
    font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+     /* background-color: #eaeff1; */
     
   
 }
@@ -65,18 +65,18 @@ p {
 /*  global classes */
 
 /* section */
-/* .section {
+ .section {
   width: 100vw;
   height: 80vh;
   margin: 0 auto;
   max-width: var(--max-width);
-}  */
+}  
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
-} */
+} 
 
 /*
 =============== 
@@ -418,13 +418,13 @@ Styles
 
   }
    .hero-info p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-top: 10px;
     
   }
 
   .hero-info h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-top: 10px;
     font-weight: bold;
     
@@ -511,6 +511,11 @@ Styles
   margin-left: 10px;
 }
 
+
+
+.my_cardInfo p {
+ font-size: 0.9rem;
+}
   .hero-info h1 {
     font-size: 2rem;
     margin-top: 20px;
@@ -668,3 +673,138 @@ Styles
     text-align: center;
     padding: 28px;
   }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 60px;
+  height: 100%;
+
+  
+  
+}
+
+.my_card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
+  background-color: #fcfcfc;
+  height: 100%;
+}
+
+.tag {
+  text-align: center;
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}    
+
+.my_name {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+.myimg {
+    border-radius: 5px ;
+    height: auto;
+    margin: 0 auto;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  border-color:rgba(255, 251, 251, 0.1)
+  
+    
+    
+  }
+
+  .my_name {
+    
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  
+ /* .about_container {
+  margin: auto;
+  width: 60%;
+  border: 3px;
+  padding: 10px;
+  height: 80vh;
+  
+   
+    
+  }
+
+  
+
+  
+  
+
+  /* .my_card {
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
+
+  }
+
+  .tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+.my_name {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+} */
+
+
+/* button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}    */ 
+
