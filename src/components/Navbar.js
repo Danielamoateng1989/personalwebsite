@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import { useGlobalContext } from './context';
 
 const Navbar = () => {
@@ -47,7 +46,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn'>Login/SignUp</button>
+         <button className='login-btn'>Login</button>
       </div>
     </nav>
   );
