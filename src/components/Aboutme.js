@@ -10,6 +10,7 @@ const Aboutme = () => {
             <div className="my_cardInfo">
                <span className="my_name"></span>
                <div className="my_fullname"></div>
+               <p>lorem ipsum dolor sit amet, consectetur</p>
             </div>
           </div>
         </div>
