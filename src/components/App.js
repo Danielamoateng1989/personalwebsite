@@ -9,7 +9,7 @@ import Homepage from './Homepage';
 import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
-import Home from '../pages/home'
+import Aboutme from '../pages/Aboutme'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-          <Route path='/aboutme' element={<Home />} />
+          <Route path='/aboutme' element={<Aboutme />} />
       </Routes>
       <Footer />
       <Submenu />
