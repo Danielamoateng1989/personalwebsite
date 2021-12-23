@@ -19,6 +19,7 @@ body {
    font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+     background-color: #eaeff1;
     
   
 }
@@ -669,12 +670,16 @@ Styles
     padding: 28px;
   }
 
-
-
-  .aboutcontainer {
+.about_container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20vh;
     height: 80vh;
+   
     
   }
+
+  
 
   img {
     width: 30%;
@@ -682,8 +687,52 @@ Styles
     height: 50%;
   }
 
-  .about_container {
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 20vh;
+  
+
+  .my_card {
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
+
   }
+
+  .tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+.my_name {
+  font-size: 20px;
+    font-weight: 600;
+
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefore it should have a pointer cursor */
+  cursor: pointer;
+}

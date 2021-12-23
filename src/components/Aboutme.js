@@ -8,11 +8,15 @@ const Aboutme = () => {
           <div className="my_card">
             <img src={CardImage} alt="Logo" />
             <div className="my_cardInfo">
-               <span className="my_name"></span>
+                <span className="tag">Sexiest Man Alive</span>
+               <span className="my_name">Daniel Amoateng</span>
                <div className="my_fullname"></div>
                <p>lorem ipsum dolor sit amet, consectetur</p>
+               <button>Download Resume</button>
             </div>
+            
           </div>
+          
         </div>
     )
 }
