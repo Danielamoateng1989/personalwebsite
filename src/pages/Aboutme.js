@@ -1,7 +1,7 @@
 import React from 'react'
 import Aboutme from '../components/Aboutme'
 
-const home = () => {
+const aboutme = () => {
     return (
         <>
 
@@ -11,4 +11,4 @@ const home = () => {
     )
 }
 
-export default home
+export default aboutme
