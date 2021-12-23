@@ -675,3 +675,15 @@ Styles
     height: 80vh;
     
   }
+
+  img {
+    width: 30%;
+    border-radius: 12px ;
+    height: 50%;
+  }
+
+  .about_container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20vh;
+  }
