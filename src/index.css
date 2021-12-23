@@ -18,7 +18,8 @@ body {
    font-family: 'Poppins', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
-     /* background-color: #eaeff1; */
+     background-color: #eaeff1;
+    
     
   
 }
@@ -818,3 +819,36 @@ p {
     }
     
 }
+
+
+.card-image{
+    max-height:100%;
+    max-width:100%;
+    display:block;
+    margin: auto 10;
+}
+
+.card-paragraph {
+  padding: 3rem;
+  margin-right: 10px;
+  
+}
+
+.paragraph {
+   max-height:100%;
+    max-width:100%;
+    display:block;
+    margin: auto 10;
+    
+
+}
+.card {
+  background-color: #fff;
+  width: 70%;
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-top: 10px;
+  object-fit: cover;
+  
+}
+
