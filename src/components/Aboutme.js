@@ -1,12 +1,12 @@
 import React from 'react'
-import CardImage from '../images/backgroundImage_ccexpress.png'
+import CardImage from '../images/Danielimg.JPG'
 
 
 const Aboutme = () => {
     return (
         <div className="container">
           <div className="my_card">
-            <img src={CardImage} alt="Logo" />
+            <img className="myimg" src={CardImage} alt="Logo" />
             <div className="my_cardInfo">
                 <br />
                 <span className="tag">Sexiest Man Alive</span>

@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&family=Raleway:wght@400;500&display=swap');:root {
   --color-primary: #245BE6;
   --color-secondary: #ff3400;
   --color-accent: #00d9ff;
@@ -512,6 +511,11 @@ Styles
   margin-left: 10px;
 }
 
+
+
+.my_cardInfo p {
+ font-size: 0.9rem;
+}
   .hero-info h1 {
     font-size: 2rem;
     margin-top: 20px;
@@ -673,8 +677,10 @@ Styles
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 40px;
+  padding: 60px;
   height: 100%;
+
+  
   
 }
 
@@ -682,15 +688,16 @@ Styles
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   background-color: white;
   padding: 8px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
+  background-color: #fcfcfc;
+  height: 100%;
 }
 
 .tag {
- 
   text-align: center;
   padding: 4px 8px;
   border: 1px solid #e5eaed;
@@ -716,17 +723,20 @@ button {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 
 }
-img {
-    
-    border-radius: 10px ;
+.myimg {
+    border-radius: 5px ;
     height: auto;
     margin: 0 auto;
       display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
+  border-color:rgba(255, 251, 251, 0.1)
+  
     
     
   }
@@ -737,6 +747,8 @@ img {
     margin: 0 auto;
   }
 
+
+  
  /* .about_container {
   margin: auto;
   width: 60%;
@@ -795,3 +807,4 @@ p {
   display: block;
   cursor: pointer;
 }    */ 
+
