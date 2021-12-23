@@ -117,7 +117,7 @@ Styles
   position: relative;
  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
-  width: 150px;
+  width: 100px;
   height: 40px;
   padding: 0.25rem 0.75rem;
   color:rgb(255, 255, 255);
@@ -179,10 +179,6 @@ Styles
   line-height: 1.8;
 }
 
-@media only screen and (max-width: 600px) {
-  .example {background: red;}
-}
-
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -227,6 +223,16 @@ Styles
     border-radius: 18px;
  
   }
+
+  .hero-info h1 {
+    font-size: 0.8rem;
+    margin-top: 40px;
+
+  }
+  .hero-info p {
+    font-size: 1rem;
+  
+  }
   .nav-links {
     display: block;
     color: rgb(125, 125, 125);
@@ -259,6 +265,7 @@ Styles
 }
 
 
+
 @media only screen and (min-width: 600px) {
   .hero::before {
     background-size: contain;
@@ -272,7 +279,7 @@ Styles
 
   }
   .hero-info p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   
   }
 
@@ -286,18 +293,65 @@ Styles
  
   }
 
-  
- 
+
+
+.login-btn {
+    display: none;
+  } 
 
 .header-btn {
-  margin-top: -30px;
+  margin-top: -33px;
+  margin-left: 10px;
 }
 
 
 
+
 }
 
 
+@media only screen and (min-width: 400px) {
+  .hero::before {
+    background-size: contain;
+    height: 10%;
+  }
+  
+
+  .hero-info h1 {
+    font-size: 2rem;
+    margin-top: 40px;
+
+  }
+  .hero-info p {
+    font-size: 1rem;
+  
+  }
+
+  .Daniel-img {
+  width: 60%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+  }
+
+
+
+.login-btn {
+    display: none;
+  } 
+
+.header-btn {
+  margin-top: -33px;
+  margin-left: 10px;
+}
+
+
+
+
+}
 
 
 
@@ -305,7 +359,7 @@ Styles
 
 
 /* hero media query */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .hero::before {
     background-size: contain;
     height: 100%;
@@ -315,7 +369,7 @@ Styles
   }
 
   .hero-info h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 80px;
   }
   .hero-info p {
@@ -327,6 +381,10 @@ Styles
     border-radius: 18px;
  
   }
+
+  .login-btn {
+    display: inline-block;
+  } 
 
 }
 
@@ -360,8 +418,15 @@ Styles
 
   }
    .hero-info p {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     margin-top: 10px;
+    
+  }
+
+  .hero-info h1 {
+    font-size: 5rem;
+    margin-top: 10px;
+    font-weight: bold;
     
   }
    .login-btn {
@@ -442,7 +507,8 @@ Styles
     height: 10%;
   }
   .header-btn {
-  margin-top: 20px;
+  margin-top: -33px;
+  margin-left: 10px;
 }
 
   .hero-info h1 {
@@ -466,12 +532,6 @@ Styles
  
 .nav {
   width: 100vw;
-}
-
-.login-btn {
-  display: none;
-  margin-top: 40px;
-  color: white;
 }
 
 
@@ -574,7 +634,7 @@ Styles
   width: 160px;
   height: 14px;
   padding: 10px;
-  margin-right: -2rem;
+  margin-right: -3.9rem;
   padding: 0.25rem 0.75rem;
   color: #245BE6;
   background-color: #ffffff;
