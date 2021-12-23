@@ -19,7 +19,7 @@ function App() {
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-          <Route path='/aboutme' element={<Aboutme />} />
+          <Route path="/aboutme" element={<Aboutme />} />
       </Routes>
       <Footer />
       <Submenu />
