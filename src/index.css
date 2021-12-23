@@ -808,3 +808,13 @@ p {
   cursor: pointer;
 }    */ 
 
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
