@@ -852,3 +852,20 @@ p {
   
 }
 
+/*Read more*/
+.container{
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  width: 50%;
+}
+  
+.text{
+  display: inline;
+  width: 100%;
+}
+  
+.read-or-hide{
+  color: rgb(192,192,192);
+  cursor: pointer;
+}

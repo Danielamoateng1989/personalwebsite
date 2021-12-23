@@ -3,16 +3,19 @@ import React, {useState} from 'react'
 
 const Readmore = ({ children }) => {
     const text = children;
-    const [isReadmore, setIsReadmore] = useState(true);
+    const [isReadMore, setIsReadmore] = useState(true);
     
     const toggleReadmore = () => {
-        setIsReadmore(!isReadmore);
+        setIsReadmore(!isReadMore);
     }
 
 
     return (
         <div>
-            
+           {isReadMore ? text.slice(0, 150) : text}
+      <span onClick={toggleReadmore} className="read-or-hide">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
         </div>
     )
 }
