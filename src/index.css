@@ -3,8 +3,8 @@
   --color-primary: #245BE6;
   --color-secondary: #ff3400;
   --color-accent: #00d9ff;
-  --color-headings: #1b0760;
-  --color-body: #53505e;
+  --color-headings: #0A2440;
+  --color-body: #102B44;
 }
 
 *,
@@ -16,9 +16,8 @@
 }
 body {
    font-family: 'Poppins', sans-serif;
-    max-width: 100%;
     overflow-x: hidden;
-     background-color: #eaeff1;
+     background-color: #F6F9FC;
     
     
   
@@ -41,7 +40,7 @@ h4 {
 }
 h1 {
   font-size: 3rem;
-  color:#000000;
+  color:var(--color-headings);
  
 }
 h2 {
@@ -92,7 +91,7 @@ Styles
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #F6F9FC;
   position: relative;
   z-index: 1;
   box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
@@ -117,14 +116,14 @@ Styles
 .login-btn {
   position: relative;
  font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   width: 100px;
   height: 40px;
   padding: 0.25rem 0.75rem;
   color:rgb(255, 255, 255);
   background: #245BE6;
   border-color: transparent;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
   
 }
@@ -149,7 +148,7 @@ Styles
   height: 5%;
   top: 0;
   left: 0;
-  background-color: #ffffff ;
+  background-color: #F6F9FC ;
   z-index: -1;
 }
 
@@ -171,6 +170,7 @@ Styles
 }
 
 .hero-info h1 {
+  font-size: 5rem;
   text-transform: none;
   margin-top: -10rem;
   max-width: 400px;
@@ -203,8 +203,24 @@ Styles
   h4 {
     line-height: 1;
   }
+
+  .card{
+   height: 100%;
+  }
 }
 
+
+@media only screen and (min-width: 1024px) {
+  .nav-center {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+
+  .card {
+    height: 100%;
+  }
+}
 /* nav media query */
 @media only screen and (min-width: 768px) {
   .nav-center {
@@ -226,7 +242,7 @@ Styles
   }
 
   .hero-info h1 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 40px;
 
   }
@@ -263,6 +279,7 @@ Styles
   }
 
   
+
 }
 
 
@@ -294,6 +311,9 @@ Styles
  
   }
 
+  .card {
+   height: 100%;
+ }
 
 
 .login-btn {
@@ -305,7 +325,9 @@ Styles
   margin-left: 10px;
 }
 
-
+.grid--1{
+        grid-template-columns: 1fr ;
+    }
 
 
 }
@@ -338,7 +360,9 @@ Styles
  
   }
 
-
+.card {
+   height: 100%;
+ }
 
 .login-btn {
     display: none;
@@ -350,7 +374,9 @@ Styles
 }
 
 
-
+.grid--1{
+        grid-template-columns: 1fr ;
+    }
 
 }
 
@@ -387,6 +413,14 @@ Styles
     display: inline-block;
   } 
 
+  .card {
+   height: 100%;
+ }
+
+ .grid--1{
+        grid-template-columns: 1fr ;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -419,7 +453,7 @@ Styles
 
   }
    .hero-info p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     
   }
@@ -512,7 +546,9 @@ Styles
   margin-left: 10px;
 }
 
-
+.card {
+   height: 100%;
+ }
 
 .my_cardInfo p {
  font-size: 0.9rem;
@@ -546,18 +582,20 @@ Styles
 @media screen and (min-width: 992px) {
   .sidebar-wrapper {
     display: none;
+ }
 
-    
-  }
+ .card {
+   height: 100%;
+ }
 }
 
 /* This is the submenu background */
 .submenu {
-  background: linear-gradient(120deg, #0575E6 0%, #021B79 100%);
+  background: #fff;
   box-shadow: var(--dark-shadow);
   position: absolute;
-  color: rgb(255, 255, 255);
-  top: 4rem;
+  color: var(--color-body);
+  top: 3rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -603,8 +641,9 @@ Styles
 }
 .submenu-center a {
   width: 10rem;
+  font-size: 0.9em;
   display: block;
-  color: white;
+  color: rgb(123, 121, 121);
   text-transform: capitalize;
   display: flex;
   align-items: center;
@@ -685,129 +724,21 @@ Styles
   
 }
 
-.my_card {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  background-color: white;
-  padding: 8px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
-  background-color: #fcfcfc;
-  height: 100%;
-}
-
-.tag {
-  text-align: center;
-  padding: 4px 8px;
-  border: 1px solid #e5eaed;
-  border-radius: 50px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #788697;
-}
-
-button {
-  border: none;
-  padding: 12px 24px;
-  border-radius: 50px;
-  font-weight: 600;
-  color: #0077ff;
-  background-color: #e0efff;
+.myimg {
+  border-radius: 5px ;
+  height: auto;
   margin: 0 auto;
   display: block;
-  cursor: pointer;
-}    
-
-.my_name {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-
-}
-.myimg {
-    border-radius: 5px ;
-    height: auto;
-    margin: 0 auto;
-      display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-
   border-color:rgba(255, 251, 251, 0.1)
-  
-    
-    
   }
 
   .my_name {
-    
     text-align: center;
     margin: 0 auto;
   }
-
-
-  
- /* .about_container {
-  margin: auto;
-  width: 60%;
-  border: 3px;
-  padding: 10px;
-  height: 80vh;
-  
-   
-    
-  }
-
-  
-
-  
-  
-
-  /* .my_card {
-    background-color: white;
-    padding: 8px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.1);
-
-  }
-
-  .tag {
-  padding: 4px 8px;
-  border: 1px solid #e5eaed;
-
-  border-radius: 50px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #788697;
-}
-
-.my_name {
-  font-size: 20px;
-  font-weight: 600;
-
-}
-
-p {
-  font-size: 14px;
-  color: #7f8c9b;
-  line-height: 150%;
-} */
-
-
-/* button {
-  border: none;
-  padding: 12px 24px;
-  border-radius: 50px;
-  font-weight: 600;
-  color: #0077ff;
-  background-color: #e0efff;
-  margin: 0 auto;
-  display: block;
-  cursor: pointer;
-}    */ 
 
 .grid {
   display: grid;
@@ -818,6 +749,10 @@ p {
         grid-template-columns: 1fr 1fr;
     }
     
+    .card {
+      height: 100%;
+    }
+   
 }
 
 
@@ -829,8 +764,9 @@ p {
 }
 
 .card-paragraph {
-  padding: 3rem;
+  padding: 2rem;
   margin-right: 10px;
+  margin-bottom: 10px;
   
 }
 
@@ -839,16 +775,20 @@ p {
     max-width:100%;
     display:block;
     margin: auto 10;
+    font-size: 1.5rem;
+    height: 100%;
+    color: var(--color-body)
     
-
 }
 .card {
   background-color: #fff;
   width: 70%;
+  height: 100%;
   border-radius: 18px;
   margin: 0 auto;
   margin-top: 10px;
   object-fit: cover;
+  font-weight: 400;
   
 }
 
@@ -869,3 +809,4 @@ p {
   color: rgb(192,192,192);
   cursor: pointer;
 }
+
