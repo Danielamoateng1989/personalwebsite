@@ -9,6 +9,7 @@ const Aboutme = () => {
             <img src={CardImage} alt="Logo" />
             <div className="my_cardInfo">
                <span className="my_name"></span>
+               <div className="my_fullname"></div>
             </div>
           </div>
         </div>
