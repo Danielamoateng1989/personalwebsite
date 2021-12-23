@@ -5,6 +5,10 @@ const Readmore = ({ children }) => {
     const text = children;
     const [isReadmore, setIsReadmore] = useState(true);
     
+    const toggleReadmore = () => {
+        setIsReadmore(!isReadmore);
+    }
+
 
     return (
         <div>
