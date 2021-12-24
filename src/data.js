@@ -4,7 +4,7 @@ const sublinks = [
     page: 'About',
     links: [
       { label: 'Home',url: '/' },
-      { label: 'About Me',url: '/aboutme' },
+      { label: 'About Me',url: '/https://www.linkedin.com/in/daniel-amoateng-959a27181' },
     ],
   },
   {
