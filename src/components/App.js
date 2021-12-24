@@ -9,7 +9,7 @@ import Homepage from './Homepage';
 import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
-import Aboutme from '../pages/Aboutme'
+import Aboutme from './Aboutme'
 
 
 function App() {
