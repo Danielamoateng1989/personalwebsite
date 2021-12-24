@@ -4,14 +4,14 @@ const sublinks = [
     page: 'About',
     links: [
       { label: 'Home',url: '/' },
-      { label: 'About Me',url: '/aboutme' },
+      { label: 'About',url: 'aboutme/' },
     ],
   },
   {
     page: 'Projects',
     links: [
       { label: 'Founded',url: 'https://apps.apple.com/us/app/regulur-schedule-earn-book/id1391463331' },
-      { label: 'Marketplace',url: '/shop' },
+      { label: 'Marketplace',url: 'shop/' },
       { label: 'RP Calculator',url: 'https://rpcalculator.netlify.app/' },
     ],
   },
