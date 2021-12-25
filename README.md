@@ -2,4 +2,4 @@
 
 continuously integrating and deploying
 
-https://danielamoatengdev.netlify.app/
+https://www.danielamoateng.dev/
