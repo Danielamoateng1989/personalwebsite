@@ -1,6 +1,6 @@
 import React from 'react'
 import CardImage from '../images/Danielimg.JPG'
-import Readmore from '../components/Readmore'
+
 
 
 const Aboutme = () => {
@@ -11,15 +11,24 @@ const Aboutme = () => {
               <div className="paragraph">
                   <h2>About Me</h2>
                   <br />
-                  <Readmore>
+                      <p className="para">
                        Hi there, I'm Daniel, a Software Engineer based in Auburn, Massachusetts. I have lived in Auburn for 5 years now, 
                        and oh I love it here. It's awesome here!
-                       <br />
-                       Quick:
-                       So I don't have a TV and my friends think it's wierd. I kind of disagree. They think I don't do anything
-                       fun. Well, it will come as a shock when they find out that I enjoy problem solving, and I watch sports. That is it.  I think those are fun, at least to me.
-                       So, yeah. But let me know if you want to connect and do some problem solving with me. Cheers!
-                 </Readmore>
+                       </p>
+                       <p>
+                      <p className="para">
+                       <h4>Fun fact:</h4>
+                       </p>
+                       <p className="para">
+                       So one day in July of 2016, I needed a haircut but I really wasn't interested in going to the barbershop on that day. So I thought, hmm, If I dont want to go to the barbershop, maybe I can look up some barbers in my area who might be interested in offering home service appointments for extra charge. Checked the AppStore, nothing. So I created that app so I could get a haircut at home lol. It had some thousand plus downloads though.
+                       </p>
+                       <p className="para">
+                       Let's connect!
+                       Cheers
+                       </p>
+
+                       </p>
+                 
                   
               </div>
           </div>
