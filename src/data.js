@@ -10,7 +10,7 @@ const sublinks = [
   {
     page: 'Projects',
     links: [
-      { label: 'Founded',url: 'https://apps.apple.com/us/app/regulur-schedule-earn-book/id1391463331' },
+      { label: 'Founded',url: 'https://regulur.netlify.app/' },
       { label: 'Marketplace',url: 'shop/' },
       { label: 'RP Calculator',url: 'https://rpcalculator.netlify.app/' },
     ],
