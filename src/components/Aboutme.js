@@ -9,9 +9,9 @@ const Aboutme = () => {
           <div className="grid grid--1x2">
               <img className="card-image" src={CardImage} alt="Daniel" />
               <div className="paragraph">
-                  <h2>About Me</h2>
+                  <h3 className="aboutMe">About Me</h3>
                   <br />
-                      <p className="para">
+                      <p className="para p1">
                        Hi there, I'm Daniel, a Software Engineer based in Auburn, Massachusetts. I have lived in Auburn for 5 years now, 
                        and oh I love it here. It's awesome here!
                        </p>
