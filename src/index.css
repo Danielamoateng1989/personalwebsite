@@ -702,6 +702,7 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
+  position: absolute ;
   left: 0;
   bottom: 0;
   height: 80px;
