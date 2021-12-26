@@ -155,7 +155,7 @@ Styles
 /*This is the height of the hero viewport*/
 .hero {
   position: relative;
-  min-height: 99vh;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -172,7 +172,7 @@ Styles
 .hero-info h1 {
   font-size: 5rem;
   text-transform: none;
-  margin-top: -10rem;
+  margin-top: 10rem;
   max-width: 400px;
 }
 .hero-info p {
@@ -315,6 +315,10 @@ Styles
    height: 100%;
  }
 
+ .footer {
+   position: absolute;
+   bottom: 0;
+ }
 
 .login-btn {
     display: none;
@@ -434,6 +438,10 @@ Styles
     font-size: 5rem;
    
   }
+  .footer {
+   position: absolute;
+   bottom: 0;
+ }
 
   .Daniel-img {
   width: 26rem;
@@ -452,6 +460,12 @@ Styles
   border-radius: 18px;
 
   }
+
+
+  .footer {
+   position: absolute;
+   bottom: 0;
+ }
    .hero-info p {
     font-size: 1.5rem;
     margin-top: 10px;
@@ -545,6 +559,10 @@ Styles
   margin-top: -33px;
   margin-left: 10px;
 }
+.footer {
+   position: absolute;
+   bottom: 0;
+ }
 
 .card {
    height: 100%;
@@ -683,7 +701,7 @@ Styles
   width: 160px;
   height: 14px;
   padding: 10px;
-  margin-right: -3.9rem;
+  margin-right: -2.5rem;
   padding: 0.25rem 0.75rem;
   color: #245BE6;
   background-color: #ffffff;
@@ -702,7 +720,7 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
-  position: absolute ;
+  position: absolute;
   left: 0;
   bottom: 0;
   height: 80px;
@@ -713,7 +731,6 @@ Styles
   }
 
   .footer p {
-    margin-top: 20px;
     text-align: center;
     padding: 28px;
       color: var(--color-body);
@@ -822,12 +839,9 @@ Styles
   margin-top: 10px;
 }
 
-.para.p1 {
+.para.p1{
   font-size: 1rem;
   margin-top: -30px;
 }
 
 
-.aboutMe {
-  padding-top: 10px;
-}
