@@ -20,11 +20,10 @@ const Navbar = () => {
   };
 
 
-  const openLoginForm = (e) => {
-    console.log("hello");
-
-  }
-
+   const history = useHistory();
+  const signUpPage = () => history.push('/signup');
+  
+  
   
   return (
     <nav className='nav' onMouseOver={handleSubmenu}>
@@ -52,7 +51,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn' onClick={openLoginForm}>Login</button>
+         <button className='login-btn' onClick={signUpPage}>Login</button>
       </div>
     </nav>
   );
