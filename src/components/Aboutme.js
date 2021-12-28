@@ -1,5 +1,6 @@
 import React from 'react'
 import CardImage from '../images/Danielimg.JPG'
+import SocialMedia from './SocialMedia'
 
 
 
@@ -7,9 +8,15 @@ const Aboutme = () => {
     return (
       <div className=" card card-paragraph">
           <div className="grid grid--1x2">
+              <article className="social-media">
               <img className="card-image" src={CardImage} alt="Daniel" />
-              
-            
+              <div className="socialMedia">
+
+              <SocialMedia />
+              </div>
+              </article>
+
+             
               <div className="paragraph">
                    
                   <h4 className="aboutMe">About Me</h4>

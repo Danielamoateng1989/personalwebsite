@@ -921,10 +921,6 @@ Styles
   object-fit: cover;
 }
 
-.social-container {
-  background: #eee;
-  padding: 25px 50px;
-}
 
 a.social {
   margin: 0 1rem;
@@ -933,9 +929,22 @@ a.social {
 }
 
 a.LinkedIn {
+  font-size: 2rem;
   color: black;
 }
 
-a.GitHub {
+a.Github {
+  font-size: 2rem;
   color: black;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.socialMedia {
+  margin-top: 30px;
+  
+  
+
 }

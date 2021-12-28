@@ -1,9 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedIn,
-  faGitHub,
-  } from "@fortawesome/free-brands-svg-icons";
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
   import React from 'react'
   
@@ -11,11 +6,11 @@ import {
       return (
           <div className="social-container">
             <a href="https://www.linkedin.com/in/daniel-amoateng-959a27181" className="LinkedIn social">
-            <FontAwesomeIcon icon={faLinkedIn} size="2x" />
+            <FaLinkedin />
             </a>
             <a href="https://github.com/Danielamoateng1989"
             className="Github social">
-            <FontAwesomeIcon icon={faGitHub} size="2x" />
+            <FaGithub />
             </a>
           </div>
       )
