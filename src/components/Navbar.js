@@ -2,7 +2,8 @@ import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -20,8 +21,8 @@ const Navbar = () => {
   };
 
 
-   const history = useHistory();
-  const signUpPage = () => history.push('/signup');
+   const navigate = useNavigate();
+  const signUpPage = () => navigate('/signup');
   
   
   
