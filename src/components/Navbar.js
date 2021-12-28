@@ -19,6 +19,11 @@ const Navbar = () => {
   };
 
 
+  const openLoginForm = (e) => {
+    console.log("hello");
+
+  }
+
   
   return (
     <nav className='nav' onMouseOver={handleSubmenu}>
@@ -46,7 +51,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn'>Login</button>
+         <button className='login-btn' onClick={openLoginForm}>Login</button>
       </div>
     </nav>
   );
