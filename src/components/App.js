@@ -15,10 +15,13 @@ import Signin from './Signin'
 
 
 
-function App() {
+function App({location }) {
   return (
     <Router>
-      <Navbar />
+      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
+          <Navbar />
+      ) : null}
+      
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
@@ -29,7 +32,10 @@ function App() {
 
 
       </Routes>
-      <Footer />
+      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
+          <Footer />
+      ) : null}
+      
       <Submenu />
     </Router>
   );
