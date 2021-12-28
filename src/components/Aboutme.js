@@ -8,6 +8,7 @@ const Aboutme = () => {
       <div className=" card card-paragraph">
           <div className="grid grid--1x2">
               <img className="card-image" src={CardImage} alt="Daniel" />
+              
             
               <div className="paragraph">
                    
