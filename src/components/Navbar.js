@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
+import { useHistory } from 'react-router-dom'
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
