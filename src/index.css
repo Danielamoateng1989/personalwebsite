@@ -16,8 +16,8 @@
 }
 body {
    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-     background-color: #F6F9FC;
+  overflow-x: hidden;
+  background-color: #F6F9FC;
     
     
   
@@ -91,7 +91,7 @@ Styles
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F6F9FC;
+  background-color: #ffffff;
   position: relative;
   z-index: 1;
   box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.1);
@@ -155,7 +155,7 @@ Styles
 /*This is the height of the hero viewport*/
 .hero {
   position: relative;
-  min-height: 99vh;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -172,7 +172,7 @@ Styles
 .hero-info h1 {
   font-size: 5rem;
   text-transform: none;
-  margin-top: -10rem;
+  margin-top: 10rem;
   max-width: 400px;
 }
 .hero-info p {
@@ -315,6 +315,10 @@ Styles
    height: 100%;
  }
 
+ .footer {
+   position: absolute;
+   bottom: 0;
+ }
 
 .login-btn {
     display: none;
@@ -434,6 +438,10 @@ Styles
     font-size: 5rem;
    
   }
+  .footer {
+   position: absolute;
+   bottom: 0;
+ }
 
   .Daniel-img {
   width: 26rem;
@@ -452,6 +460,12 @@ Styles
   border-radius: 18px;
 
   }
+
+
+  .footer {
+   position: absolute;
+   bottom: 0;
+ }
    .hero-info p {
     font-size: 1.5rem;
     margin-top: 10px;
@@ -545,6 +559,10 @@ Styles
   margin-top: -33px;
   margin-left: 10px;
 }
+.footer {
+   position: absolute;
+   bottom: 0;
+ }
 
 .card {
    height: 100%;
@@ -683,7 +701,7 @@ Styles
   width: 160px;
   height: 14px;
   padding: 10px;
-  margin-right: -3.9rem;
+  margin-right: -2.5rem;
   padding: 0.25rem 0.75rem;
   color: #245BE6;
   background-color: #ffffff;
@@ -702,20 +720,21 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
+  position: absolute;
   left: 0;
   bottom: 0;
   height: 80px;
   width: 100%;
-  background-color: #F5F5F7;
-  color: #96969A;
+  background-color:#EFF2F5;
   text-align: center;
 
   }
 
   .footer p {
-    margin-top: 20px;
     text-align: center;
     padding: 28px;
+      color: var(--color-body);
+
   }
 
 .container {
@@ -817,4 +836,57 @@ Styles
 
 .para {
   font-size: 1rem;
+  margin-top: 10px;
 }
+
+.para.p1{
+  font-size: 1rem;
+  margin-top: -30px;
+}
+
+
+
+
+.form-light .font-small {
+  font-size: 0.8rem; }
+
+.form-light [type="radio"] + label,
+.form-light [type="checkbox"] + label {
+  font-size: 0.8rem; }
+
+.form-light [type="checkbox"] + label:before {
+  top: 2px;
+  width: 15px;
+  height: 15px; }
+
+.form-light input[type="checkbox"] + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  z-index: 0;
+  border-radius: 1px;
+  margin-top: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+
+.form-light input[type="checkbox"]:checked + label:before {
+  top: -4px;
+  left: -3px;
+  width: 12px;
+  height: 22px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent #EB3573 #EB3573 transparent;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%; }
+
+.form-light .footer {
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem; }

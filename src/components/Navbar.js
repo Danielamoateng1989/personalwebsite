@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
+import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -19,6 +21,10 @@ const Navbar = () => {
   };
 
 
+   const navigate = useNavigate();
+  const signUpPage = () => navigate('/signup');
+  
+  
   
   return (
     <nav className='nav' onMouseOver={handleSubmenu}>
@@ -46,7 +52,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn'>Login</button>
+         <button className='login-btn' onClick={signUpPage}>Login</button>
       </div>
     </nav>
   );
