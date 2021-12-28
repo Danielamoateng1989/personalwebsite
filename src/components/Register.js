@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBIcon, MDBBtn } from 'mdbreact';
 
 const Register = () => {
+
+
+
   return (
     <MDBContainer>
       <MDBRow>

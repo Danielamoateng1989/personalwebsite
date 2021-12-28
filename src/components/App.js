@@ -10,6 +10,7 @@ import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
+import Register from './Register'
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       <Routes>
           <Route path="/" element={<Homepage />} exact />
           <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/signup" element={<Register />} />
+
+
       </Routes>
       <Footer />
       <Submenu />
