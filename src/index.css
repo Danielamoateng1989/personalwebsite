@@ -332,7 +332,9 @@ Styles
 .grid--1{
         grid-template-columns: 1fr ;
     }
-
+.vl {
+  display: hidden;
+}
 
 }
 
@@ -343,7 +345,9 @@ Styles
     height: 10%;
   }
   
-
+.vl {
+  display: hidden;
+}
   .hero-info h1 {
     font-size: 2rem;
     margin-top: 40px;
@@ -406,6 +410,10 @@ Styles
   .hero-info p {
     font-size: 1.25rem;
   }
+
+  .vl {
+ color: #000;
+}
 
   .Daniel-img {
     width: 26rem;
@@ -580,6 +588,7 @@ Styles
     font-size: 1.25rem;
   
   }
+  
 
   .Daniel-img {
   width: 100%;
@@ -781,9 +790,15 @@ Styles
 
 .card-image{
     max-height:100%;
-    max-width:100%;
     display:block;
-    margin: auto 10;
+    margin: auto 20;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 270px;
+}
+.card-image:hover{
+  box-shadow: 0 0 2px 1px rgba(189, 231, 245, 0.5);
 }
 
 .card-paragraph {
@@ -809,11 +824,14 @@ Styles
   height: 100%;
   border-radius: 18px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
   object-fit: cover;
   font-weight: 400;
+  box-shadow: 0 3px 6px 0 rgba(109, 109, 109, 0.19), 0 6px 20px 0 rgba(109, 109, 109, 0.19);
+
   
 }
+
 
 /*Read more*/
 .container{
@@ -889,4 +907,16 @@ Styles
 
 .form-light .footer {
   border-bottom-left-radius: .3rem;
-  border-bottom-right-radius: .3rem; }
+  border-bottom-right-radius: .3rem; 
+
+}
+
+.vl {
+  border-left: 2px solid rgb(247, 247, 247);
+  height: 64.4%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 0;
+  object-fit: cover;
+}

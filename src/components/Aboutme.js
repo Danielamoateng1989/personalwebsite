@@ -8,8 +8,10 @@ const Aboutme = () => {
       <div className=" card card-paragraph">
           <div className="grid grid--1x2">
               <img className="card-image" src={CardImage} alt="Daniel" />
+            
               <div className="paragraph">
-                  <h3 className="aboutMe">About Me</h3>
+                   
+                  <h4 className="aboutMe">About Me</h4>
                   <br />
                       <p className="para p1">
                        Hi there, I'm Daniel, a Software Engineer based in Auburn, Massachusetts. I have lived in Auburn for 5 years now, 
