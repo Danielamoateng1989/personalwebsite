@@ -10,14 +10,12 @@ const Homepage = () => {
         <article className='hero-info'>
           <h1>
             Hi! I'm Danny.<br />
-             I'm a Software Engineer. Welcome to my world!
+            Software Developer. Welcome to my world!
             </h1>
-    
-        
-          
           <p>
-          Organized, dedicated and ambitious professional with excellent attention to detail, and a love for learning new technologies.           </p>
-          
+            I love hanging out with my nephews, to learn, and be resourceful.
+           
+          </p>   
         </article>
         <article className='hero-DanielImage'>
           <img src={ProfileImage} className='Daniel-img' alt='portrait'/>
