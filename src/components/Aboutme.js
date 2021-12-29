@@ -28,11 +28,6 @@ const Aboutme = () => {
               </div>
               
               <div className="profile-card-social">
-                <a href="https://www.instagram.com/iamuhammederdem" className="profile-card-social__item instagram">
-                  <span className="icon-font">
-                    <svg className="icon"><use xlinkHref="#icon-instagram" /></svg>
-                  </span>
-                </a>
                 <a href="https://github.com/Danielamoateng1989" className="profile-card-social__item github" target="">
                   <span className="icon-font">
                     <svg className="icon"><use xlinkHref="#icon-github" /></svg>
