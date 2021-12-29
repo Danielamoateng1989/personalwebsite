@@ -17,15 +17,16 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme();
 
 const SignUp = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    // eslint-disable-next-line no-console
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+     console.log('user submit')
+    
   };
+
+
 
   return (
     <ThemeProvider theme={theme}>
@@ -96,7 +97,7 @@ const SignUp = () => {
                 />
               </Grid>
             </Grid>
-            <Button
+            <Button onClick={handleSubmit}
               type="submit"
               fullWidth
               variant="contained"
