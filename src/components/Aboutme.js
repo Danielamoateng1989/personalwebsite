@@ -1,5 +1,5 @@
 import React from 'react'
-import cardImage from '/Users/danny/Desktop/Desktop/project1/personal-site/src/images/Danielimg.JPG'
+import cardImage from '../images/Danielimg.JPG'
 
 
 
@@ -33,6 +33,7 @@ const Aboutme = () => {
                     <svg className="icon"><use xlinkHref="#icon-github" /></svg>
                   </span>
                 </a>
+                
               </div>
               <div className="profile-card-ctr">
                 <button className="profile-card__button button--blue js-message-btn">Send a message</button>
