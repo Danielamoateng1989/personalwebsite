@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 
-
-
 :root {
   --color-primary: #1B46C2;
   --color-secondary: #ff3400;
@@ -292,8 +290,9 @@ Styles
     height: 10%;
   }
   .profile-card__img {
-    z-index: -2;
+    z-index: -1;
   }
+  
 
   .hero-info h1 {
     font-size: 2rem;
@@ -304,6 +303,8 @@ Styles
     font-size: 1rem;
   
   }
+
+  
 
   .Daniel-img {
   width: 60%;
@@ -320,8 +321,9 @@ Styles
  }
 
  .footer {
-   position: absolute;
-   bottom: 0;
+   
+  position: fixed;
+  
  }
 
 .login-btn {
@@ -447,8 +449,7 @@ Styles
    
   }
   .footer {
-   position: absolute;
-   bottom: 0;
+   position: fixed;
  }
 
   .Daniel-img {
@@ -572,8 +573,11 @@ Styles
 
  
 .footer {
-   position: absolute;
-   bottom: 0;
+   
+   
+   position: fixed;
+  
+ 
  }
 
   
@@ -733,7 +737,7 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   height: 80px;
@@ -1044,7 +1048,7 @@ a, a:hover {
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   box-shadow: 0px 5px 50px 0px #ffffff, 0px 0px 0px 7px rgba(255, 255, 255, 0.5);
 }
 @media screen and (max-width: 576px) {
