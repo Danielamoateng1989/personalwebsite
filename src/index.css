@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 
-
-
 :root {
   --color-primary: #1B46C2;
   --color-secondary: #ff3400;
@@ -324,7 +322,7 @@ Styles
 
  .footer {
    
-    height: 100%;
+  position: fixed;
   
  }
 
@@ -451,8 +449,7 @@ Styles
    
   }
   .footer {
-   position: absolute;
-   bottom: 0;
+   position: fixed;
  }
 
   .Daniel-img {
@@ -578,7 +575,7 @@ Styles
 .footer {
    
    
-    height: 100%;
+   position: fixed;
   
  
  }
@@ -740,7 +737,7 @@ Styles
 
 /*This is the footer background, height and text align*/
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   height: 80px;
