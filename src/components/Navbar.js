@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
 
-   const navigate = useNavigate();
+  const navigate = useNavigate();
   const signUpPage = () => navigate('/signup');
   
   
