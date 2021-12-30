@@ -13,8 +13,7 @@ const Homepage = () => {
             Software Developer. Welcome to my world!
             </h1>
           <p>
-            I love hanging out with my nephews, to learn, and be resourceful.
-           
+            I love hanging out with my nephews, learn, and be resourceful.
           </p>   
         </article>
         <article className='hero-DanielImage'>
