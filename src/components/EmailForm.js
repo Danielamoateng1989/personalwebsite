@@ -57,7 +57,7 @@ const EmailForm = () => {
                 onChange={handleInputChange}
                 style={{ height: 150 }}
                 name="message"
-                placeholder="What's on your mind?"
+                placeholder="message..."
               ></Input>
             </FormGroup>
             <Button onClick={sendMessage}>Submit</Button>
