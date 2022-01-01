@@ -25,6 +25,14 @@ transporter.verify((err, success) => {
   }
 });
 
+app.get('/sendme', (req, res) => {
+   
+res.status(200).json({
+    success: true,
+    message: 'Successfully signed into Gmail account, HELLO'
+})
+})
+
 app.post("/send", (req, res) => {
   const { name } = req.body;
   const { message } = req.body;

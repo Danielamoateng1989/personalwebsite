@@ -30,7 +30,7 @@ function App({location }) {
           <Route path="/aboutme" element={<Aboutme />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<Signin />} />
-          <Route path="/message" element={<EmailForm />} />
+          <Route path="/send" element={<EmailForm />} />
 
       
 
