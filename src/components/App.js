@@ -15,6 +15,7 @@ import Signin from './Signin'
 
 
 
+
 function App({location }) {
   return (
     <Router>
@@ -28,8 +29,7 @@ function App({location }) {
           <Route path="/aboutme" element={<Aboutme />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<Signin />} />
-        
-
+      
 
       </Routes>
       {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (

@@ -1,15 +1,18 @@
 import React from 'react'
 import cardImage from '../images/Danielimg.JPG'
+import { useNavigate } from 'react-router-dom';
+
 
 const Aboutme = () => { 
 
-  const submitMessage = () => {
-    console.log("message submitted")
-  }
- 
 
-
-    return (    
+  const navigate = useNavigate();
+  const sendMessage = () => navigate('/message');
+    
+  
+  
+  
+  return (    
     <div>
         <div className="wrapper">
           <div className="profile-card js-profile-card">
@@ -36,25 +39,10 @@ const Aboutme = () => {
                 
               </div>
               <div className="profile-card-ctr">
-                <button className="profile-card__button button--blue js-message-btn" onClick={submitMessage}>Send a message</button>
+                <button className="profile-card__button button--blue js-message-btn" onClick={sendMessage}>Send a message</button>
               </div>
             </div>
-            <div className="profile-card-message js-message">
-              <form className="profile-card-form">
-                <div className="profile-card-form__container">
-                  <textarea placeholder="Say something..." defaultValue={""} />
-                </div>
-                <div className="profile-card-form__bottom">
-                  <button className="profile-card__button button--blue js-message-close">
-                    Send
-                  </button>
-                  <button className="profile-card__button button--gray js-message-close">
-                    Cancel
-                  </button>
-                </div>
-              </form>
-              <div className="profile-card__overlay js-message-close" />
-            </div>
+            
           </div>
         </div>
         <svg hidden="hidden">
