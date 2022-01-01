@@ -2,6 +2,13 @@ import React from 'react'
 import cardImage from '../images/Danielimg.JPG'
 
 const Aboutme = () => { 
+
+  const submitMessage = () => {
+    console.log("message submitted")
+  }
+ 
+
+
     return (    
     <div>
         <div className="wrapper">
@@ -29,7 +36,7 @@ const Aboutme = () => {
                 
               </div>
               <div className="profile-card-ctr">
-                <button className="profile-card__button button--blue js-message-btn">Send a message</button>
+                <button className="profile-card__button button--blue js-message-btn" onClick={submitMessage}>Send a message</button>
               </div>
             </div>
             <div className="profile-card-message js-message">
