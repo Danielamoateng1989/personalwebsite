@@ -1,5 +1,5 @@
 #Add README.md later
 
-continuously integrating and deploying
+A personal porfolio site
 
 https://www.danielamoateng.dev/
