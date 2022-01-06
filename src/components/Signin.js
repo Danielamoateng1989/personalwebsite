@@ -19,7 +19,6 @@ export default function SignInSide() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    // eslint-disable-next-line no-console
     console.log({
       email: data.get('email'),
       password: data.get('password'),
@@ -39,7 +38,7 @@ export default function SignInSide() {
             backgroundImage: 'url(https://source.unsplash.com/random)',
             backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
-              t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
+              t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[800],
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
