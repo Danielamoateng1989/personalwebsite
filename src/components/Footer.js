@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Footer = () => {
-    return (
 
+
+const Footer = () => {
+
+  const date = new Date().getFullYear()
+
+return (
 <div class="footer">
-  <p> Copyright &copy; 2021 Daniel Amoateng</p>
+  <p> &copy; {date} Daniel Amoateng</p>
 </div>
     
     )
