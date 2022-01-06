@@ -20,10 +20,7 @@ import EmailForm from './EmailForm'
 function App({location }) {
   return (
     <Router>
-      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
-          <Navbar />
-      ) : null}
-      
+      <Navbar />
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
@@ -31,14 +28,8 @@ function App({location }) {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/send" element={<EmailForm />} />
-
-      
-
       </Routes>
-      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
-          <Footer />
-      ) : null}
-      
+        <Footer />
       <Submenu />
     </Router>
   );
