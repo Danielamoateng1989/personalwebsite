@@ -5,13 +5,13 @@ import {
   Route,
 } from "react-router-dom"
 import Navbar from './Navbar';
-import Homepage from './Homepage';
+import Homepage from '../pages/Homepage';
 import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
-import SignUp from './Signup'
-import Signin from './Signin'
+import SignUp from '../pages/Signup'
+import Signin from '../pages/Signin'
 import EmailForm from './EmailForm'
 
 

@@ -18,7 +18,7 @@ const Aboutme = () => {
             </div>
             <div className="profile-card__cnt js-profile-cnt">
               <div className="profile-card__name">Daniel Amoateng</div>
-              <div className="profile-card__txt">Software Developer</div>
+              <div className="profile-card__txt">Software Engineer</div>
               <div className="profile-card-loc">
                 <span className="profile-card-loc__icon">
                   <GoLocation />

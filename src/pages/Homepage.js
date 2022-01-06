@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileImage from '../images/backgroundImage_ccexpress.png';
-import { useGlobalContext } from './context';
+import { useGlobalContext } from '../components/context';
 
 const Homepage = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -13,7 +13,7 @@ const Homepage = () => {
             Software Developer. Welcome to my world!
             </h1>
           <p>
-            I love hanging out with my nephews, learn, and be resourceful.
+            I love hanging out with my nephews, learning, and being resourceful.
           </p>   
         </article>
         <article className='hero-DanielImage'>
