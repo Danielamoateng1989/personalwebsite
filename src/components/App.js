@@ -25,7 +25,7 @@ function App({location }) {
       <Routes>
           <Route path="/" element={<Homepage />} exact />
           <Route path="/aboutme" element={<Aboutme />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/contact" element={<SignUp />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/send" element={<EmailForm />} />
       </Routes>

@@ -1,69 +1,38 @@
-import React, { useState } from "react";
-import { Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
-import Axios from "axios";
+import React, {useRef}  from "react";
+import emailjs from '@emailjs/browser';
+require('dotenv').config()
+
+
 
 const EmailForm = () => {
-  const initialInputState = { name: "", message: "" };
-  const [newMessage, setNewMessage] = useState(initialInputState);
 
-  const { name, message } = newMessage;
+  const form = useRef();
 
-  const handleInputChange = e => {
-    setNewMessage({ ...newMessage, [e.target.name]: e.target.value });
-  };
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  const sendMessage = e => {
-    Axios({
-      method: "POST",
-      url: "http://localhost:5000/send",
-      data: { name, message },
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then(res => {
-      if (res.data.msg === "suc") {
-        console.log("Email has been sent");
-        setNewMessage(initialInputState);
-      } else {
-        console.log("FAILURE");
-      }
-    });
+    emailjs.sendForm('service_88m114a', 'template_8m3r2ar', form.current, 'user_EtXUxAT6sSN9AautlPk69')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   return (
-    <div>
-      <Row>
-        <Col sm="12" md={{ size: 6, offset: 3 }} className="text-center mt-4">
-          <h2>Send a Message</h2>
-        </Col>
-      </Row>
-      <Row className="mt-4">
-        <Col sm="12" md={{ size: 6, offset: 3 }}>
-          <Form method="POST" action="send">
-            <FormGroup>
-              <Label for="name">Name</Label>
-              <Input
-                name="name"
-                onChange={handleInputChange}
-                value={name}
-                placeholder="Enter your name here"
-              ></Input>
-            </FormGroup>
-            <FormGroup>
-              <Label for="message">Message</Label>
-              <Input
-                type="textarea"
-                value={message}
-                onChange={handleInputChange}
-                style={{ height: 150 }}
-                name="message"
-                placeholder="message..."
-              ></Input>
-            </FormGroup>
-            <Button onClick={sendMessage}>Submit</Button>
-          </Form>
-        </Col>
-      </Row>
+
+ 
+    <div className="wrapper">
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+     
     </div>
   );
 };
