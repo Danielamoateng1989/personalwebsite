@@ -27,7 +27,7 @@ function App({location }) {
           <Route path="/aboutme" element={<Aboutme />} />
           <Route path="/contact" element={<SignUp />} />
           <Route path="/signin" element={<Signin />} />
-          <Route path="/send" element={<EmailForm />} />
+          <Route path="/send" element={<EmailForm />} render={<Homepage/>}/>
       </Routes>
         <Footer />
       <Submenu />
