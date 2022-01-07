@@ -29,7 +29,7 @@ app.get('/sendme', (req, res) => {
    
 res.status(200).json({
     success: true,
-    message: 'Successfully signed into Gmail account'
+    message: 'Successfully signed into Gmail account, HELLO'
 })
 })
 
@@ -48,9 +48,7 @@ app.post("/send", (req, res) => {
     if (err) {
       res.json({ msg: "err" });
     } else {
-      res.json({ data: data, msg: "suc" });
+      res.json({ msg: "suc" });
     }
   });
 });
-
-

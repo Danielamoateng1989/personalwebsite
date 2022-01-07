@@ -39,7 +39,7 @@ const EmailForm = () => {
       </Row>
       <Row className="mt-4">
         <Col sm="12" md={{ size: 6, offset: 3 }}>
-          <Form>
+          <Form method="POST" action="send">
             <FormGroup>
               <Label for="name">Name</Label>
               <Input
