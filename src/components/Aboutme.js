@@ -25,18 +25,18 @@ const Aboutme = () => {
                   <GoLocation />
                 </span>
                 <span className="profile-card-loc__txt">
-                  Boston, MA
+                  Auburn, MA
                 </span>
               </div>      
               <div className="profile-card-social">
-                <a href="https://github.com/Danielamoateng1989" className="profile-card-social__item github" target="">
+                <a href="https://github.com/Danielamoateng1989" className="profile-card-social__item github " target="">
                   <span className="icon-font">
                     <FaGithub />
                   </span>
                 </a>
-              </div>
-              <div className="profile-card-social">
-                <a href="https://www.linkedin.com/in/daniel-amoateng-959a27181/" className="profile-card-social__item github" target="">
+              
+             
+              <a href="https://www.linkedin.com/in/daniel-amoateng-959a27181/" className="profile-card-social__item linkedin" target="">
                   <span className="icon-font">
                     <FaLinkedin />
                   </span>

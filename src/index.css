@@ -1175,12 +1175,14 @@ a, a:hover {
   }
 }
 
-.profile-card-social__item.instagram {
-  background: linear-gradient(45deg, #000000, #000000);
-}
+
 
 .profile-card-social__item.github {
   background: linear-gradient(45deg, #000000, #000000);
+}
+
+.profile-card-social__item.linkedin {
+  background: #2366c2;
 }
 .profile-card-social .icon-font {
   display: inline-flex;
