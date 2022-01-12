@@ -11,7 +11,7 @@ import Footer from './Footer';
 import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
 
-import EmailForm from './EmailForm'
+import EmailForm from './Form'
 
 function App() {
   return (
