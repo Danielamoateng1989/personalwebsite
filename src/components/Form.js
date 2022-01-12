@@ -64,7 +64,7 @@ const Form = () => {
                   
                 />
 
-                {!isLoading && <button className="profile-card__button button--blue js-message-btn">Send</button>}
+                {!isLoading && <button className="profile-card__button button--blue ">Send</button>}
                 {/* {!isPending && <button disabled >Adding blog...</button>} */}
             </form>
 

@@ -207,6 +207,10 @@ Styles
   .card{
    height: 100%;
   }
+
+  .send-message{
+    max-width: 400px;
+  }
 }
 
 
@@ -304,6 +308,9 @@ Styles
   
   }
 
+   .send-message{
+    max-width: 400px;
+  }
   
 
   .Daniel-img {
@@ -359,6 +366,10 @@ Styles
   .hero-info p {
     font-size: 1rem;
   
+  }
+
+   .send-message{
+    max-width: 400px;
   }
 
   .Daniel-img {
@@ -1077,6 +1088,10 @@ a, a:hover {
   color: var(--color-primary);
   margin-bottom: 15px;
 }
+
+ .send-message{
+    max-width: 400px;
+  }
 .profile-card__txt {
   font-size: 18px;
   font-weight: 500;
@@ -1185,13 +1200,13 @@ a, a:hover {
   background: none;
   border: none;
   font-family: "Quicksand", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   margin: 15px 35px;
   padding: 15px 40px;
-  min-width: 201px;
+  min-width: 150px;
   border-radius: 10px;
-  min-height: 55px;
+  min-height: 50px;
   color: #fff;
   cursor: pointer;
   backface-visibility: hidden;
@@ -1318,9 +1333,10 @@ a, a:hover {
 
 /*Send message*/
 .send-message {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 60px;
 }
 
 .send-message label {
@@ -1336,6 +1352,7 @@ a, a:hover {
 
 .send-message input, .send-message textarea {
   width: 100%;
+  
   padding: 6px 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
@@ -1344,7 +1361,11 @@ a, a:hover {
   position: relative;
 
 }
+.send-message textarea {
+  height: 160px;
+  resize: none;
 
+}
 .send-message button {
   background-color: var(--color-primary);
   color: #fff;
