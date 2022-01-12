@@ -204,13 +204,8 @@ Styles
     line-height: 1;
   }
 
-  .card{
-   height: 100%;
-  }
-
-  .send-message{
-    max-width: 400px;
-  }
+ 
+  
 }
 
 
@@ -244,6 +239,8 @@ Styles
     border-radius: 18px;
  
   }
+
+
 
   .hero-info h1 {
     font-size: 1rem;
@@ -296,23 +293,17 @@ Styles
   .profile-card__img {
     z-index: -1;
   }
-  
-
   .hero-info h1 {
     font-size: 2rem;
     margin-top: 40px;
-
   }
   .hero-info p {
     font-size: 1rem;
   
   }
-
    .send-message{
     max-width: 400px;
   }
-  
-
   .Daniel-img {
   width: 60%;
   
@@ -320,25 +311,17 @@ Styles
   margin-left: auto;
   margin-right: auto;
   width: 50%;
- 
-  }
-
+ }
   .card {
    height: 100%;
  }
-
  .footer {
-   
   position: fixed;
-  
  }
 
 .login-btn {
     display: none;
-  } 
-
-
-
+} 
 .grid--1{
         grid-template-columns: 1fr ;
     }
@@ -347,7 +330,6 @@ Styles
 }
 
 }
-
 
 @media only screen and (min-width: 400px) {
   .hero::before {
@@ -401,11 +383,6 @@ Styles
     }
 
 }
-
-
-
-
-
 
 /* hero media query */
 @media screen and (min-width: 768px) {
@@ -469,30 +446,25 @@ Styles
   
   }
 }
-
-
 @media screen and (min-width: 1400px) {
   .hero-center {
     padding-bottom: 20vh;
-  }
+}
   .Daniel-img {
   width: 26rem;
   border-radius: 18px;
 
-  }
-
-
+}
   .footer {
    position: absolute;
    bottom: 0;
- }
+}
    .hero-info p {
     font-size: 1.5rem;
     margin-top: 10px;
     
-  }
-
-  .hero-info h1 {
+}
+ .hero-info h1 {
     font-size: 6rem;
     margin-top: 10px;
     font-weight: bold;
@@ -551,7 +523,6 @@ Styles
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 0.25rem;
-  
 
 }
 .sidebar-sublinks a {
@@ -568,8 +539,6 @@ Styles
   
 }
 
-
-
 @media only screen and (max-width: 600px) {
    .hero::before {
     background-size: contain;
@@ -581,17 +550,9 @@ Styles
     z-index: -1;
   }
   
-
- 
 .footer {
-   
-   
    position: fixed;
-  
- 
  }
-
-  
 .card {
    height: 100%;
  }
@@ -599,47 +560,42 @@ Styles
 .my_cardInfo p {
  font-size: 0.9rem;
 }
-  .hero-info h1 {
+.hero-info h1 {
     font-size: 1.5rem;
     margin-top: 20px;
 
-  }
+}
   .hero-info p {
     font-size: 1.25rem;
   
-  }
+}
   
-
-  .Daniel-img {
+.Daniel-img {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
  
-  }
- 
+}
 .nav {
   width: 100vw;
 }
 
 .login-btn {
   display: none;
-
 }
 
 }
-
 @media screen and (min-width: 992px) {
   .sidebar-wrapper {
     display: none;
- }
+}
 
- .card {
+.card {
    height: 100%;
  }
 }
-
 /* This is the submenu background */
 .submenu {
   background: #fff;
@@ -698,9 +654,7 @@ Styles
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  margin-right: 10px;
- 
-  
+  margin-right: 10px;  
 }
 
 /*Learn more button on homepage*/
@@ -720,9 +674,6 @@ Styles
   text-transform: uppercase;
   
 }
-
-
-
 /*Hamburger icon button styling*/ 
 .toggle-btn {
  font-family: 'Quicksand', sans-serif;
@@ -734,18 +685,12 @@ Styles
   cursor: pointer;
   background-color: transparent;
   border: none;
-  
-
 }
-
-
 /* navigation logo*/
 .navigation-logo {
   width: 70px;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
-
 /*This is the footer background, height and text align*/
 .footer {
   position: fixed;
@@ -755,29 +700,19 @@ Styles
   width: 100%;
   background-color: var(--color-primary);
   text-align: center;
-
-  }
-
-  .footer p {
+}
+.footer p {
     text-align: center;
     padding: 28px;
     color: rgb(221, 219, 219);
-    
-      
-      
-
   }
 
 .container {
   margin: 0 auto;
   width: 100%;
   padding: 60px;
-  height: 100%;
-
-  
-  
+  height: 100%; 
 }
-
 .myimg {
   border-radius: 5px ;
   height: auto;
@@ -787,9 +722,9 @@ Styles
   margin-right: auto;
   width: 50%;
   border-color:rgba(255, 251, 251, 0.1)
-  }
+}
 
-  .my_name {
+.my_name {
     text-align: center;
     margin: 0 auto;
   }
@@ -805,11 +740,8 @@ Styles
     
     .card {
       height: 100%;
-    }
-   
+    }  
 }
-
-
 .card-image{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -817,20 +749,15 @@ Styles
     width: 270px;
     align-items: center;
 }
-
-
 .card-image:hover{
    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
 
 }
-
 .card-paragraph {
   padding: 2rem;
   margin-right: 10px;
-  margin-bottom: 10px;
-  
+  margin-bottom: 10px; 
 }
-
 .paragraph {
    max-height:100%;
     max-width:100%;
@@ -851,20 +778,14 @@ Styles
   object-fit: cover;
   font-weight: 400;
   box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
-
-
-  
 }
-
-
 /*Read more*/
 .container{
   position: absolute;
   top: 10%;
   left: 23%;
   width: 50%;
-}
-  
+} 
 .text{
   display: inline;
   width: 100%;
@@ -978,7 +899,7 @@ a.Github {
   color: black;
 }
 
-/* Increase the specificity */
+
 .Button:disabled {
   color: white;
 }
@@ -990,11 +911,6 @@ a.Github {
   justify-content: center;
 
 }
-
-
-
-
-
 /*Card Styles*/
 
 a, a:hover {
@@ -1179,8 +1095,6 @@ a, a:hover {
   }
 }
 
-
-
 .profile-card-social__item.github {
   background: linear-gradient(45deg, #000000, #000000);
 }
@@ -1259,9 +1173,6 @@ a, a:hover {
     box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
 
 }
-
-
-
 .profile-card-message {
   width: 100%;
   height: 100%;
@@ -1360,15 +1271,27 @@ a, a:hover {
 
 .send-message input, .send-message textarea {
   width: 100%;
-  
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 0.5px solid #ddd;
   box-sizing: border-box;
   display: block;
   position: relative;
 
 }
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.card-wrapper {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
 .send-message textarea {
   height: 160px;
   resize: none;
@@ -1469,3 +1392,15 @@ a, a:hover {
   }
 }
 
+/*Send message card */
+.send_message_card {
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
+  border-radius: 18px;
+  margin:  auto;
+  margin-top: 50px;
+  object-fit: cover;
+  font-weight: 400;
+  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+}

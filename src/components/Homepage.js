@@ -9,11 +9,11 @@ const Homepage = () => {
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>
-            Hi! I'm Danny.<br />
-            Software Developer. Welcome to my world!
+            Hi, there! I'm Danny. Software Engineer. Welcome to my world!<br />
             </h1>
           <p>
-            I love hanging out with my nephews, learn, and be resourceful.
+            I enjoy learning new technologies and solving problems with them. I love watching sports, hanging out with my friends 
+            and meeting new people. 
           </p>   
         </article>
         <article className='hero-DanielImage'>

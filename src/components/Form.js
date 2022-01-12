@@ -7,17 +7,11 @@ const Form = () => {
     const [name, SetName] = useState('')
     const [email, SetEmail] = useState('')
     const [message, SetMessage] = useState('')
-    const [isLoading, SetIsLoading] = useState('')
-
-
-   const navigate = useNavigate()
-   
-
+    const navigate = useNavigate();
+    const thankyou = () => navigate('/thankyou');
+    
     const handleSubmit = (e) => {
         e.preventDefault()
-        SetIsLoading(true)
-
-       
         axios({
             method: "POST",
             url: "/send",
@@ -30,44 +24,33 @@ const Form = () => {
                 alert("Message failed to send.")
             }
         })
-   
-   
-   
     }
-
     return (
-        
+        <div className="send_message_card">
         <div className="send-message">
             <h3>contact</h3>
             <form onSubmit={handleSubmit}>
-
                 <label>name</label>
                 <input
                     type="text"
                     required
                     value={name}
-                    onChange={(e) => SetName(e.target.value)}
-                    
+                    onChange={(e) => SetName(e.target.value)}    
                 />
                 <label>Email</label>
                 <input
                     required
                     value={email}
-                    onChange={(e) => SetEmail(e.target.value)}
-                    
+                    onChange={(e) => SetEmail(e.target.value)}   
                 />
-
                 <label>Message</label>
                 <textarea
                     value={message}
-                    onChange={(e) => SetMessage(e.target.value)}
-                  
+                    onChange={(e) => SetMessage(e.target.value)}    
                 />
-
-                {!isLoading && <button className="profile-card__button button--blue ">Send</button>}
-                {/* {!isPending && <button disabled >Adding blog...</button>} */}
+                <button className="profile-card__button button--blue " onClick={thankyou}>Send</button>
             </form>
-
+        </div>
         </div>
     )
 }
