@@ -1317,35 +1317,36 @@ a, a:hover {
 }
 
 /*Send message*/
-.send-message{
+.send-message {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-.create label {
+.send-message label {
   text-align: left;
   display: block;
 }
 
-.create h2 {
+.send-message h2 {
   font-size: 20px;
   color: #c73460;
   margin-bottom: 30px;
 }
 
-.create input, .create textarea, .create select {
+.send-message input, .send-message textarea {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
+  position: relative;
 
 }
 
-.create button {
-  background-color: #f1356d;
+.send-message button {
+  background-color: var(--color-primary);
   color: #fff;
   border: 0;
   padding: 8px;

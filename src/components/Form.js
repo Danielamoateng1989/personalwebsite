@@ -18,7 +18,7 @@ const Form = () => {
 
         SetIsLoading(true)
 
-        fetch("http://localhost:8000/blogs", {
+        fetch("http://localhost:8000/send", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: []
@@ -41,7 +41,7 @@ const Form = () => {
                     required
                     value={name}
                     onChange={(e) => SetName(e.target.value)}
-                    placeholder="name"
+                    
                 />
 
 
@@ -50,7 +50,7 @@ const Form = () => {
                     required
                     value={email}
                     onChange={(e) => SetEmail(e.target.value)}
-                    placeholder="email"
+                    
                 />
 
 
@@ -59,12 +59,12 @@ const Form = () => {
                 <textarea
                     value={message}
                     onChange={(e) => SetMessage(e.target.value)}
-                    placeholder="message"
+                    
                 
                   
                 />
 
-                {!isLoading && <button className="button">Send</button>}
+                {!isLoading && <button className="profile-card__button button--blue js-message-btn">Send</button>}
                 {/* {!isPending && <button disabled >Adding blog...</button>} */}
             </form>
 
