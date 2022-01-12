@@ -5,6 +5,7 @@ import { useGlobalContext } from './context';
 import { useNavigate } from 'react-router-dom';
 
 
+
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
   const displaySubmenu = (e) => {

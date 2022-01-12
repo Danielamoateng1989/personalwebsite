@@ -10,8 +10,9 @@ import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
+import Thankyou from './Thankyou'
 
-import EmailForm from './Form'
+import Form from './Form'
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       <Routes>
           <Route path="/" element={<Homepage />} exact />
           <Route path="/contact" element={<Aboutme />} />
-          <Route path="/sendmessage" element={<EmailForm />} />
+          <Route path="/sendmessage" element={<Form />} />
+          <Route path="/thankyou" element={<Thankyou />} />
+
 
       
 

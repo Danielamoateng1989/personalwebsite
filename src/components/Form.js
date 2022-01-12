@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+const axios = require('axios');
 
 const Form = () => {
     const [name, SetName] = useState('')
@@ -14,25 +15,29 @@ const Form = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-
-
         SetIsLoading(true)
 
-        fetch("http://localhost:8000/send", {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: []
-        }).then(() => {
-            console.log('Blog saved')
-            SetIsLoading(false)
-            //After the user is done submitting the form, let's have them go back
-            navigate('/about')
+       
+        axios({
+            method: "POST",
+            url: "/send",
+            data: JSON.stringify(message)
+        }).then((response) => {
+            if (response.data.status === 'success') {
+                alert("Message Sent.");
+                navigate('/thankyou')
+            } else if (response.data.status === 'fail') {
+                alert("Message failed to send.")
+            }
         })
+   
+   
+   
     }
 
     return (
         <div className="send-message">
-            <h1>Send me a message</h1>
+            <h3>contact</h3>
             <form onSubmit={handleSubmit}>
 
                 <label>name</label>
