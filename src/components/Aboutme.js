@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Aboutme = () => { 
 
    const navigate = useNavigate();
-  const sendMessage = () => navigate('/send');
+  const sendMessage = () => navigate('/contact');
   
 
     return (    

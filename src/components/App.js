@@ -23,7 +23,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Homepage />} exact />
           <Route path="/aboutme" element={<Aboutme />} />
-          <Route path="/send" element={<EmailForm />} />
+          <Route path="/contact" element={<EmailForm />} />
 
       
 
