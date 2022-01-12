@@ -14,10 +14,7 @@ import SignUp from './Signup'
 import Signin from './Signin'
 import EmailForm from './EmailForm'
 
-
-
-
-function App({location }) {
+function App() {
   return (
     <Router>
       {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
