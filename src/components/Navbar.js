@@ -5,6 +5,7 @@ import { useGlobalContext } from './context';
 import { useNavigate } from 'react-router-dom';
 
 
+
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
   const displaySubmenu = (e) => {
@@ -21,8 +22,8 @@ const Navbar = () => {
   };
 
 
-   const navigate = useNavigate();
-  const signUpPage = () => navigate('/signup');
+  const navigate = useNavigate();
+  const sendMessage = () => navigate('/sendmessage');
   
   
   
@@ -52,7 +53,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn' onClick={signUpPage}>Login</button>
+         <button className='login-btn' onClick={sendMessage}>Contact</button>
       </div>
     </nav>
   );

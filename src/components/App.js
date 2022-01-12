@@ -10,31 +10,29 @@ import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
-import SignUp from './Signup'
-import Signin from './Signin'
+import Thankyou from './Thankyou'
 
+import Form from './Form'
 
-
-function App({location }) {
+function App() {
   return (
     <Router>
-      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
           <Navbar />
-      ) : null}
+  
       
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-          <Route path="/aboutme" element={<Aboutme />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<Signin />} />
-        
+          <Route path="/contact" element={<Aboutme />} />
+          <Route path="/sendmessage" element={<Form />} />
+          <Route path="/thankyou" element={<Thankyou />} />
 
+
+      
 
       </Routes>
-      {window.location.pathname !== "/signin" && window.location.pathname !== '/signup' ? (
           <Footer />
-      ) : null}
+     
       
       <Submenu />
     </Router>
