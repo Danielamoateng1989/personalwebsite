@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
   const navigate = useNavigate();
-  const signUpPage = () => navigate('/signup');
+  const signUpPage = () => navigate('/send');
   
   
   
@@ -52,7 +52,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='login-btn' onClick={signUpPage}>Login</button>
+         <button className='login-btn' onClick={signUpPage}>Contact</button>
       </div>
     </nav>
   );
