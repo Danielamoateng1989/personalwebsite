@@ -36,6 +36,7 @@ const Form = () => {
     }
 
     return (
+        
         <div className="send-message">
             <h3>contact</h3>
             <form onSubmit={handleSubmit}>
@@ -48,8 +49,6 @@ const Form = () => {
                     onChange={(e) => SetName(e.target.value)}
                     
                 />
-
-
                 <label>Email</label>
                 <input
                     required
@@ -58,14 +57,10 @@ const Form = () => {
                     
                 />
 
-
-
                 <label>Message</label>
                 <textarea
                     value={message}
                     onChange={(e) => SetMessage(e.target.value)}
-                    
-                
                   
                 />
 

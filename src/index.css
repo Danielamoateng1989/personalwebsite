@@ -820,7 +820,8 @@ Styles
 
 
 .card-image:hover{
-  box-shadow: 0 0 2px 1px rgba(189, 231, 245, 0.5);
+   box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
 }
 
 .card-paragraph {
@@ -849,7 +850,8 @@ Styles
   margin-top: 50px;
   object-fit: cover;
   font-weight: 400;
-  box-shadow: 0 3px 6px 0 rgba(109, 109, 109, 0.19), 0 6px 20px 0 rgba(109, 109, 109, 0.19);
+  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
 
   
 }
@@ -1031,7 +1033,8 @@ a, a:hover {
   width: 100%;
   min-height: 460px;
   margin: auto;
-  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
   background: #fff;
   border-radius: 12px;
   max-width: 700px;
@@ -1156,7 +1159,8 @@ a, a:hover {
   justify-content: center;
   color: #fff;
   background: #405de6;
-  box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
   position: relative;
   font-size: 21px;
   flex-shrink: 0;
@@ -1248,10 +1252,12 @@ a, a:hover {
 }
 .profile-card__button.button--blue {
   background: var(--color-primary);
-  box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
 }
 .profile-card__button.button--blue:hover {
-  box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+
 }
 
 
@@ -1412,7 +1418,15 @@ a, a:hover {
   border-radius: 30px;
   text-transform: capitalize;
   box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+  cursor: pointer;
 }
+
+.li {
+  list-style-type: none;
+}
+
+
+
 .footer-like {
   margin-top: auto;
   background: #d7e6fe;
