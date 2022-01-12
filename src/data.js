@@ -4,7 +4,7 @@ const sublinks = [
     page: 'About',
     links: [
       { label: 'Home',url: '/' },
-      { label: 'About',url: '/aboutme' },
+      { label: 'Contact',url: '/contact' },
     ],
   },
   {

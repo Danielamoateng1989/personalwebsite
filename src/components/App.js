@@ -22,8 +22,8 @@ function App() {
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-          <Route path="/aboutme" element={<Aboutme />} />
-          <Route path="/contact" element={<EmailForm />} />
+          <Route path="/contact" element={<Aboutme />} />
+          <Route path="/sendmessage" element={<EmailForm />} />
 
       
 

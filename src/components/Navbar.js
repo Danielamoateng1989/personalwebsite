@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
   const navigate = useNavigate();
-  const sendMessage = () => navigate('/contact');
+  const sendMessage = () => navigate('/sendmessage');
   
   
   
