@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap');
 :root {
-  --color-primary: #1B46C2;
+  --color-primary: #2555fe;
   --color-secondary: #ff3400;
   --color-headings: #000000;
   --color-body: #000000;
@@ -114,18 +114,19 @@ Styles
 }
 
 /*This is the login/Sign up button color*/
-.login-btn {
+.contact_btn {
   position: relative;
   font-family: 'Quicksand', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 900;
   width: 100px;
   height: 40px;
   padding: 0.25rem 0.75rem;
-  color: var(--color-primary);
-  background: white;
+  color:#ffff;
+  background: var(--color-primary);
   border: 1.7px solid var(--color-primary);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.3s;
   
 }
