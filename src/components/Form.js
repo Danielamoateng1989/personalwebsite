@@ -28,10 +28,10 @@ const Form = () => {
         })
     }
     return (
-        <div className="send_message_card">
+        <div className="">
         <div className="send-message">
             <h3>contact</h3>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="section-form">
                 <label>name</label>
                 <input
                     type="text"
@@ -45,8 +45,6 @@ const Form = () => {
                     value={email}
                     onChange={(e) => SetEmail(e.target.value)}   
                 />
-                    
-
                 <label>Message</label>
                 <textarea
                     value={message}

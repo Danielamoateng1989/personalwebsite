@@ -15,12 +15,9 @@
   box-sizing: border-box;
 }
 body {
-   font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #324e63;
-  background-color: #E7EBF7;
-    
-    
-  
+  background-color: #E7EBF7;  
 }
 ul {
   list-style-type: none;
@@ -36,13 +33,11 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
  font-family: 'Quicksand', sans-serif;
- color: (var(--color-headings))
-  
+ color: (var(--color-headings))  
 }
 h1 {
   font-size: 3rem;
   color:var(--color-headings);
- 
 }
 h2 {
   font-size: 2rem;
@@ -58,12 +53,7 @@ h4 {
 p {
   margin-bottom: 0.9rem;
   color: #8688a2;
-  
-
 }
-
-
-/*  global classes */
 
 /* section */
  .section {
@@ -72,13 +62,11 @@ p {
   margin: 0 auto;
   max-width: var(--max-width);
 }  
-
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
 } 
-
 /*
 =============== 
 Styles
@@ -95,16 +83,12 @@ Styles
   background-color: #E7EBF7;
   position: relative;
   z-index: 1;
-  
-
 }
 
 /*This is what centers the navigation items*/
 .nav-center {
   width: 90vw;
- 
 }
-
 
 /*Navigation header*/
 .nav-header {
@@ -127,22 +111,17 @@ Styles
   border: 1.7px solid var(--color-primary);
   cursor: pointer;
   border-radius: 20px;
-  transition: all 0.3s;
-  
+  transition: all 0.3s; 
 }
+
 .login-btn:hover{
   transition: all 0.3s;
 }
-/*Background of the color changes from royalblue to yellow with you hover over explore button*/
-.btn:hover {
-  background: #ECB365;
-}
+
 
 .nav-links {
   display: none;
 }
-
-
 /*Hero background Image*/
 .hero::before {
   content: '';
@@ -162,7 +141,6 @@ Styles
   justify-items: center;
 }
 
-
 /*We are centering the hero with a width of 90vw*/
 .hero-center {
   width: 90vw;
@@ -180,7 +158,6 @@ Styles
   max-width: 35em;
   line-height: 1.8;
 }
-
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -203,13 +180,8 @@ Styles
   h3,
   h4 {
     line-height: 1;
-  }
-
- 
-  
+  } 
 }
-
-
 @media only screen and (min-width: 1024px) {
   .nav-center {
     display: grid;
@@ -240,13 +212,9 @@ Styles
     border-radius: 18px;
  
   }
-
-
-
   .hero-info h1 {
     font-size: 1rem;
     margin-top: 40px;
-
   }
   .hero-info p {
     font-size: 0.8rem;
@@ -282,7 +250,6 @@ Styles
   }
 
 }
-
 @media only screen and (min-width: 600px) {
   .hero::before {
     background-size: contain;
@@ -314,7 +281,7 @@ Styles
    height: 100%;
  }
  .footer {
-  position: fixed;
+  position: absolute;
  }
 
 .login-btn {
@@ -404,15 +371,13 @@ Styles
  color: #000;
 }
 
-  .Daniel-img {
+.Daniel-img {
     width: 26rem;
     border-radius: 18px;
- 
-  }
-
-  .login-btn {
+}
+.login-btn {
     display: inline-block;
-  } 
+} 
 
   .card {
    height: 100%;
@@ -438,7 +403,7 @@ Styles
    position: fixed;
  }
 
-  .Daniel-img {
+.Daniel-img {
   width: 26rem;
   border-radius: 18px
   
@@ -488,7 +453,7 @@ Styles
   transition: 0.3s;
   transform: scale(0);
   background: white;
-  color: black;
+  color:var(--color-headings);
   
 }
 .sidebar-wrapper.show {
@@ -502,13 +467,12 @@ Styles
   position: relative;
   padding: 4rem 2rem;
 }
-
 /*Sidebar close menu button of shape x*/
 .close-btn {
-  font-size: 1.5rem;
+  font-size: 1rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-grey-5);
+  color: rgb(141, 139, 139);
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -563,18 +527,16 @@ Styles
     margin-top: 20px;
 
 }
-  .hero-info p {
-    font-size: 1.25rem;
+.hero-info p {
+ font-size: 1.25rem;
   
 }
-  
 .Daniel-img {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
- 
 }
 .nav {
   width: 100vw;
@@ -589,7 +551,6 @@ Styles
   .sidebar-wrapper {
     display: none;
 }
-
 .card {
    height: 100%;
  }
@@ -654,29 +615,12 @@ Styles
   margin-right: 10px;  
 }
 
-/*Learn more button on homepage*/
-.leardMore-button {
- font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
-  width: 160px;
-  height: 45px;
-  padding: 10px;
-  box-shadow:rgb(140, 140, 140);
-  padding: 0.25rem 0.75rem;
-  color:rgb(255, 255, 255);
-  background: var(--color-secondary);
-  border-color: transparent;
-  border-radius: 6px;
-  cursor: pointer;
-  text-transform: uppercase;
-  
-}
 /*Hamburger icon button styling*/ 
 .toggle-btn {
  font-family: 'Quicksand', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 160px;
-  margin-right: -2.5rem;
+  margin-right: -2.9rem;
   margin-top: 10px;
   color: #245BE6;
   cursor: pointer;
@@ -803,55 +747,6 @@ Styles
 .para.p1{
   font-size: 1rem;
   margin-top: -30px;
-}
-
-
-
-
-.form-light .font-small {
-  font-size: 0.8rem; }
-
-.form-light [type="radio"] + label,
-.form-light [type="checkbox"] + label {
-  font-size: 0.8rem; }
-
-.form-light [type="checkbox"] + label:before {
-  top: 2px;
-  width: 15px;
-  height: 15px; }
-
-.form-light input[type="checkbox"] + label:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 17px;
-  height: 17px;
-  z-index: 0;
-  border-radius: 1px;
-  margin-top: 2px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s; }
-
-.form-light input[type="checkbox"]:checked + label:before {
-  top: -4px;
-  left: -3px;
-  width: 12px;
-  height: 22px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: transparent #EB3573 #EB3573 transparent;
-  -webkit-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  transform: rotate(40deg);
-  -webkit-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%; }
-
-.form-light .footer {
-  border-bottom-left-radius: .3rem;
-  border-bottom-right-radius: .3rem; 
-
 }
 
 .vl {
@@ -1000,7 +895,7 @@ a, a:hover {
   transition: all 0.3s;
 }
 .profile-card__name {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 24px;
   color: var(--color-primary);
   margin-bottom: 15px;
@@ -1073,8 +968,7 @@ a, a:hover {
   justify-content: center;
   color: #fff;
   background: #405de6;
-    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
-
+  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
   position: relative;
   font-size: 21px;
   flex-shrink: 0;
@@ -1275,19 +1169,16 @@ a, a:hover {
   box-sizing: border-box;
   display: block;
   position: relative;
+  border-radius: 3px;
 
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 .card-wrapper {
   border-radius: 5px;
   background-color: white;
   padding: 20px;
 }
-
 
 
 .send-message textarea {
@@ -1315,14 +1206,6 @@ input[type=submit]:hover {
   padding: 30px;
   text-align: center;
 }
-/* h1 {
-  font-family: "Kaushan Script", cursive;
-  font-size: 4em;
-  letter-spacing: 3px;
-  color: #5892ff;
-  margin: 0;
-  margin-bottom: 20px;
-} */
 .wrapper-2 p {
   margin: 0;
   font-size: 1.3em;
@@ -1341,13 +1224,9 @@ input[type=submit]:hover {
   box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
   cursor: pointer;
 }
-
 .li {
   list-style-type: none;
 }
-
-
-
 .footer-like {
   margin-top: auto;
   background: #d7e6fe;
@@ -1390,15 +1269,47 @@ input[type=submit]:hover {
   }
 }
 
-/*Send message card */
-.send_message_card {
-  background-color: #fff;
-  width: 50%;
-  height: 100%;
-  border-radius: 18px;
-  margin:  auto;
-  margin-top: 50px;
-  object-fit: cover;
-  font-weight: 400;
-  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+/*Contact me form*/
+.section-form {
+  width: 80%;
+  margin: 3em auto;
+  background-color: #ffff;
+  padding: 2em;
+  border-radius: 10px;
 }
+.section-form .intro {
+  margin-bottom: 2em;
+}
+.section-form h1 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 0.6em;
+}
+.section-form h2 {
+  text-align: center;
+  font-size: 1.23077em;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 0.5em 1em;
+  color: #555555;
+  font-weight: 300;
+  border-radius: 3px;
+}
+
+.send-message input, .send-message textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 0.5px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  border-radius: 3px;
+
+}
+
