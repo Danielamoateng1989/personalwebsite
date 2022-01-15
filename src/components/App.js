@@ -1,11 +1,10 @@
-import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom"
 import Navbar from './Navbar';
-import Homepage from './Homepage';
+import Homepage from '../pages/Home';
 import Submenu from './Submenu';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
@@ -18,9 +17,7 @@ import Form from './Form'
 function App() {
   return (
     <Router>
-          <Navbar />
-  
-      
+      <Navbar />
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
@@ -28,9 +25,7 @@ function App() {
           <Route path="/sendmessage" element={<Form />} />
           <Route path="/thankyou" element={<Thankyou />} />
       </Routes>
-          <Footer />
-     
-      
+      <Footer />
       <Submenu />
     </Router>
   );
