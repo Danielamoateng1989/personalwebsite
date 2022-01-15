@@ -3,7 +3,7 @@
 :root {
   --color-primary: #2555fe;
   --color-secondary: #ff3400;
-  --color-headings: #000000;
+  --color-headings: #1E276D;
   --color-body: #000000;
 }
 
@@ -92,10 +92,10 @@ Styles
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #E7EBF7;
   position: relative;
   z-index: 1;
-  box-shadow: 0 2px 4px 0 #ecf0fc;
+  
 
 }
 
@@ -114,10 +114,10 @@ Styles
 }
 
 /*This is the login/Sign up button color*/
-.contact_btn {
+.login-btn {
   position: relative;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 900;
   width: 100px;
   height: 40px;
@@ -270,21 +270,18 @@ Styles
   }
   .link-btn {
     height: 100%;
-   font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: transparent;
     border-color: transparent;
+    font-weight: bold;
     font-size: 1rem;
-    color: rgb(33, 32, 32);
+    color: var(--color-headings);
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
   }
 
-  
-
 }
-
-
 
 @media only screen and (min-width: 600px) {
   .hero::before {
@@ -599,15 +596,14 @@ Styles
 }
 /* This is the submenu background */
 .submenu {
-  background: #fff;
+  background: rgb(250, 250, 250);
   box-shadow: var(--dark-shadow);
   position: absolute;
-  color:  black;
+  color: var(--color-headings);
   top: 3rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  
   display: none;
   padding: 4rem 2rem;
   border-radius: 10px;
@@ -651,7 +647,7 @@ Styles
   width: 10rem;
   font-size: 0.9em;
   display: block;
-  color:  #324e63;
+  color:  var(--color-headings);
   text-transform: capitalize;
   display: flex;
   align-items: center;
@@ -699,13 +695,14 @@ Styles
   bottom: 0;
   height: 80px;
   width: 100%;
-  background-color: var(--color-primary);
+  background-color: #fbfcfc;
   text-align: center;
 }
 .footer p {
     text-align: center;
     padding: 28px;
-    color: rgb(221, 219, 219);
+    font-size: 1rem;
+    color: rgb(154, 154, 154);
   }
 
 .container {

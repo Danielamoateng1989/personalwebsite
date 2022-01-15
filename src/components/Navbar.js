@@ -53,7 +53,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-         <button className='contact_btn' onClick={sendMessage}>Contact</button>
+         <button className='login-btn' onClick={sendMessage}>Contact</button>
       </div>
     </nav>
   );
