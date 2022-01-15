@@ -5,11 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Aboutme = () => { 
-
-   const navigate = useNavigate();
+  const navigate = useNavigate();
   const sendMessage = () => navigate('/sendmessage');
-  
-
     return (    
     <div>
         <div className="wrapper">
@@ -19,7 +16,7 @@ const Aboutme = () => {
             </div>
             <div className="profile-card__cnt js-profile-cnt">
               <div className="profile-card__name">Daniel Amoateng</div>
-              <div className="profile-card__txt">Software Developer from <strong> Auburn</strong></div>
+              <div className="profile-card__txt">Software Engineer from<strong>Auburn</strong></div>
               <div className="profile-card-loc">
                 <span className="profile-card-loc__icon">
                   <GoLocation />
@@ -34,9 +31,7 @@ const Aboutme = () => {
                     <FaGithub />
                   </span>
                 </a>
-              
-             
-              <a href="https://www.linkedin.com/in/daniel-amoateng-959a27181/" className="profile-card-social__item linkedin" target="">
+                <a href="https://www.linkedin.com/in/daniel-amoateng-959a27181/" className="profile-card-social__item linkedin" target="">
                   <span className="icon-font">
                     <FaLinkedin />
                   </span>

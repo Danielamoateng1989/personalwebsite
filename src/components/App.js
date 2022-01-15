@@ -12,6 +12,7 @@ import Sidebar from './Sidebar';
 import Aboutme from './Aboutme'
 import Thankyou from './Thankyou'
 
+
 import Form from './Form'
 
 function App() {
@@ -26,10 +27,6 @@ function App() {
           <Route path="/contact" element={<Aboutme />} />
           <Route path="/sendmessage" element={<Form />} />
           <Route path="/thankyou" element={<Thankyou />} />
-
-
-      
-
       </Routes>
           <Footer />
      

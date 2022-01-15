@@ -2,6 +2,7 @@ import React from 'react';
 import ProfileImage from '../images/backgroundImage_ccexpress.png';
 import { useGlobalContext } from './context';
 
+
 const Homepage = () => {
   const { closeSubmenu } = useGlobalContext();
   return (
@@ -23,7 +24,9 @@ const Homepage = () => {
           <img src={ProfileImage} className='Daniel-img' alt='portrait'/>
         </article> 
       </div>
+
     </section>
+    
   );
 };
 
