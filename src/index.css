@@ -281,7 +281,7 @@ Styles
    height: 100%;
  }
  .footer {
-  position: fixed;
+  position: absolute;
  }
 
 .login-btn {
@@ -895,7 +895,7 @@ a, a:hover {
   transition: all 0.3s;
 }
 .profile-card__name {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 24px;
   color: var(--color-primary);
   margin-bottom: 15px;
@@ -1312,3 +1312,4 @@ textarea {
   border-radius: 3px;
 
 }
+

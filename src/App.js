@@ -3,16 +3,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import Navbar from './Navbar';
-import Homepage from '../pages/Home';
-import Submenu from './Submenu';
-import Footer from './Footer';
-import Sidebar from './Sidebar';
-import Aboutme from './Aboutme'
-import Thankyou from './Thankyou'
+import Navbar from './components/Navbar';
+import Homepage from './pages/Home';
+import Submenu from './components/Submenu';
+import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
+import Contact from './components/Contact'
+import Thankyou from './components/Thankyou'
 
 
-import Form from './Form'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Sidebar />
       <Routes>
           <Route path="/" element={<Homepage />} exact />
-          <Route path="/contact" element={<Aboutme />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/sendmessage" element={<Form />} />
           <Route path="/thankyou" element={<Thankyou />} />
       </Routes>
