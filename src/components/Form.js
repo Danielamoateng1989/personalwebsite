@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+
 const axios = require('axios');
+
 
 const Form = () => {
     const [name, SetName] = useState('')
@@ -12,11 +14,6 @@ const Form = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault()
-
-
-       
-
-
         axios({
             method: "POST",
             url: "/send",
@@ -48,13 +45,18 @@ const Form = () => {
                     value={email}
                     onChange={(e) => SetEmail(e.target.value)}   
                 />
+                    
+
                 <label>Message</label>
                 <textarea
                     value={message}
                     onChange={(e) => SetMessage(e.target.value)}    
                 />
                 <button className="profile-card__button button--blue " onClick={thankyou}>Send</button>
+                
             </form>
+
+            
         </div>
         </div>
     )
