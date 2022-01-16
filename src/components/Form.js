@@ -11,15 +11,19 @@ const Form = () => {
     const [message, SetMessage] = useState('')
     const navigate = useNavigate();
     const thankyou = () => navigate('/thankyou');
+
     
     const handleSubmit = (e) => {
         e.preventDefault()
+
+      
         axios({
             method: "POST",
             url: "/send",
             data: JSON.stringify(message)
         }).then((response) => {
             if (response.data.status === 'success') {
+                
                 alert("Message Sent.");
                 navigate('/thankyou')
             } else if (response.data.status === 'fail') {
@@ -50,8 +54,7 @@ const Form = () => {
                     value={message}
                     onChange={(e) => SetMessage(e.target.value)}    
                 />
-                <button className="profile-card__button button--blue " onClick={thankyou}>Send</button>
-                
+                <button className="profile-card__button button--blue" type="submit" onClick={thankyou}>Send</button>
             </form>
 
             
