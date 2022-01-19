@@ -10,7 +10,7 @@ const sublinks = [
   {
     page: 'Projects',
     links: [
-      { label: 'Founded',url: 'https://regulur.netlify.app/' },
+      { label: 'Founded',url: 'https://regulurapp.vercel.app//' },
       { label: 'RP Calculator',url: 'https://rpcalculator.netlify.app/' },
     ],
   },
