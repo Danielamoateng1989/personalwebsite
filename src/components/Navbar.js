@@ -3,6 +3,7 @@ import logo from '../images/Danielslogo.png';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,7 +32,9 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmenu}>
       <div className='nav-center'>
         <div className='nav-header'>
+          <Link to="/">
           <img src={logo} className='navigation-logo' alt='danny' />
+          </Link>
           <button className='header-btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
