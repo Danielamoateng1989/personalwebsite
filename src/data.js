@@ -12,6 +12,7 @@ const sublinks = [
     links: [
       { label: 'Founded',url: 'https://regulurapp.vercel.app//' },
       { label: 'RP Calculator',url: 'https://rpcalculator.netlify.app/' },
+      { label: 'nice.com', url: 'https://main.dljkmcgs86zqj.amplifyapp.com'}
     ],
   },
   {
