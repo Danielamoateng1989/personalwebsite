@@ -9,7 +9,7 @@ const Submenu = () => {
     location,
   } = useGlobalContext()
   const container = useRef(null)
-  const [columns, setColumns] = useState('col-2')
+  const [columns, setColumns] = useState('col-3')
   
   useEffect(() => {
     setColumns('col-2')
